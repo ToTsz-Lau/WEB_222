@@ -13,7 +13,7 @@
  */
 
 window.products = [
-  /*
+ 
     {
       id: "P1",
       title: "Title 1",
@@ -22,5 +22,5 @@ window.products = [
       discontinued: false,
       categories: ["c1"]
     },
-  */
+
 ];

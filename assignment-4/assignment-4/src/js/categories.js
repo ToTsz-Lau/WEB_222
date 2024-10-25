@@ -9,7 +9,7 @@
  */
 
 window.categories = [
-  /*
+  
     { id: "c1", name: "Category 1" },
-   */
+   
 ];
