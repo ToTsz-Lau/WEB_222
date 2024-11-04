@@ -21,7 +21,7 @@ const { products, categories } = window;
 console.log({ products, categories }, "Store Data");
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("DOM fully loaded and parsed");
+  displayProducts("c1");
   createCategoryMenu();
 });
 
