@@ -14,2915 +14,3139 @@
 
 window.products = [
   {
-    id: "P1",
-    catalogNumber: "PC 81641",
-    title: "Thriller",
-    artist: "Michael Jackson",
-    eraCreated: 1982,
-    genre: "Pop",
-    recordCompany: "Epic Records",
-    discontinued: true,
-    description:
-      "For fans of Pop, 'Thriller' by Michael Jackson is a timeless classic that has stood the test of time since 1982. Produced by Epic Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "PC 81641",
+    Title: "Thriller",
+    Artist: "Michael Jackson",
+    EraCreated: 1982,
+    RecordCompany: "Epic Records",
+    Discontinued: true,
+    Description:
+      "For fans of Pop, 'Thriller' by Michael Jackson is a timeless classic that has stood the test of time since 1982. Produced by Epic Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 429.19,
+    id: 1,
+    category: "c1"
   },
   {
-    id: "P2",
-    catalogNumber: "B0020520-01",
-    title: "25",
-    artist: "Adele",
-    eraCreated: 2015,
-    genre: "Pop",
-    recordCompany: "XL Recordings",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0020520-01",
+    Title: "25",
+    Artist: "Adele",
+    EraCreated: 2015,
+    RecordCompany: "XL Recordings",
+    Discontinued: false,
+    Description:
       "'25' by Adele is a landmark in Pop, first released in 2015. Crafted under XL Recordings, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 64.72,
+    id: 2,
+    category: "c1"
   },
   {
-    id: "P3",
-    catalogNumber: "R1 547450",
-    title: "21",
-    artist: "Adele",
-    eraCreated: 2011,
-    genre: "Pop",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
-      "For fans of Pop, '21' by Adele is a timeless classic that has stood the test of time since 2011. Produced by Columbia Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "R1 547450",
+    Title: "21",
+    Artist: "Adele",
+    EraCreated: 2011,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
+      "For fans of Pop, '21' by Adele is a timeless classic that has stood the test of time since 2011. Produced by Columbia Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 8,
+    price: 78.08,
+    id: 3,
+    category: "c1"
   },
   {
-    id: "P4",
-    catalogNumber: "B0019254-01",
-    title: "Lemonade",
-    artist: "Beyoncé",
-    eraCreated: 2016,
-    genre: "Pop",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
-      "For fans of Pop, 'Lemonade' by Beyoncé is a timeless classic that has stood the test of time since 2016. Produced by Columbia Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0019254-01",
+    Title: "Lemonade",
+    Artist: "Beyonc\u00e9",
+    EraCreated: 2016,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
+      "For fans of Pop, 'Lemonade' by Beyonc\u00e9 is a timeless classic that has stood the test of time since 2016. Produced by Columbia Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 2,
+    price: 132.96,
+    id: 4,
+    category: "c1"
   },
   {
-    id: "P5",
-    catalogNumber: "MOVLP 101",
-    title: "1989",
-    artist: "Taylor Swift",
-    eraCreated: 2014,
-    genre: "Pop",
-    recordCompany: "Big Machine Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 101",
+    Title: "1989",
+    Artist: "Taylor Swift",
+    EraCreated: 2014,
+    RecordCompany: "Big Machine Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Pop albums, '1989' by Taylor Swift has captivated audiences since its release in 2014. Released by Big Machine Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 105.93,
+    id: 5,
+    category: "c1"
   },
   {
-    id: "P6",
-    catalogNumber: "B0017382-01",
-    title: "Future Nostalgia",
-    artist: "Dua Lipa",
-    eraCreated: 2020,
-    genre: "Pop",
-    recordCompany: "Warner Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0017382-01",
+    Title: "Future Nostalgia",
+    Artist: "Dua Lipa",
+    EraCreated: 2020,
+    RecordCompany: "Warner Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Pop albums, 'Future Nostalgia' by Dua Lipa has captivated audiences since its release in 2020. Released by Warner Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 53.17,
+    id: 6,
+    category: "c1"
   },
   {
-    id: "P7",
-    catalogNumber: "MOVLP 725",
-    title: "Back to Black",
-    artist: "Amy Winehouse",
-    eraCreated: 2006,
-    genre: "Pop",
-    recordCompany: "Island Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 725",
+    Title: "Back to Black",
+    Artist: "Amy Winehouse",
+    EraCreated: 2006,
+    RecordCompany: "Island Records",
+    Discontinued: false,
+    Description:
       "Amy Winehouse's 'Back to Black' is celebrated as a defining moment in Pop, showcasing unparalleled artistry since 2006. Brought to the world by Island Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 93.33,
+    id: 7,
+    category: "c1"
   },
   {
-    id: "P8",
-    catalogNumber: "MOVLP 1677",
-    title: "ABBA Gold",
-    artist: "ABBA",
-    eraCreated: 1992,
-    genre: "Pop",
-    recordCompany: "Universal Music",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 1677",
+    Title: "ABBA Gold",
+    Artist: "ABBA",
+    EraCreated: 1992,
+    RecordCompany: "Universal Music",
+    Discontinued: false,
+    Description:
       "'ABBA Gold' by ABBA is a landmark in Pop, first released in 1992. Crafted under Universal Music, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 82.45,
+    id: 8,
+    category: "c1"
   },
   {
-    id: "P9",
-    catalogNumber: "MOVLP 2501",
-    title: "Fine Line",
-    artist: "Harry Styles",
-    eraCreated: 2019,
-    genre: "Pop",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
-      "For fans of Pop, 'Fine Line' by Harry Styles is a timeless classic that has stood the test of time since 2019. Produced by Columbia Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 2501",
+    Title: "Fine Line",
+    Artist: "Harry Styles",
+    EraCreated: 2019,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
+      "For fans of Pop, 'Fine Line' by Harry Styles is a timeless classic that has stood the test of time since 2019. Produced by Columbia Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 2,
+    price: 103.98,
+    id: 9,
+    category: "c1"
   },
   {
-    id: "P10",
-    catalogNumber: "B0023738-01",
-    title: "Born This Way",
-    artist: "Lady Gaga",
-    eraCreated: 2011,
-    genre: "Pop",
-    recordCompany: "Interscope Records",
-    discontinued: false,
-    description:
-      "For fans of Pop, 'Born This Way' by Lady Gaga is a timeless classic that has stood the test of time since 2011. Produced by Interscope Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0023738-01",
+    Title: "Born This Way",
+    Artist: "Lady Gaga",
+    EraCreated: 2011,
+    RecordCompany: "Interscope Records",
+    Discontinued: false,
+    Description:
+      "For fans of Pop, 'Born This Way' by Lady Gaga is a timeless classic that has stood the test of time since 2011. Produced by Interscope Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 1,
+    price: 79.13,
+    id: 10,
+    category: "c1"
   },
   {
-    id: "P11",
-    catalogNumber: "MOVLP 169",
-    title: "Dangerous",
-    artist: "Michael Jackson",
-    eraCreated: 1991,
-    genre: "Pop",
-    recordCompany: "Epic Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 169",
+    Title: "Dangerous",
+    Artist: "Michael Jackson",
+    EraCreated: 1991,
+    RecordCompany: "Epic Records",
+    Discontinued: false,
+    Description:
       "Michael Jackson's 'Dangerous' is celebrated as a defining moment in Pop, showcasing unparalleled artistry since 1991. Brought to the world by Epic Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 135.86,
+    id: 11,
+    category: "c1"
   },
   {
-    id: "P12",
-    catalogNumber: "R1 123456",
-    title: "True Blue",
-    artist: "Madonna",
-    eraCreated: 1986,
-    genre: "Pop",
-    recordCompany: "Sire Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "R1 123456",
+    Title: "True Blue",
+    Artist: "Madonna",
+    EraCreated: 1986,
+    RecordCompany: "Sire Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Pop albums, 'True Blue' by Madonna has captivated audiences since its release in 1986. Released by Sire Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 55.65,
+    id: 12,
+    category: "c1"
   },
   {
-    id: "P13",
-    catalogNumber: "PC 4748",
-    title: "The Fame",
-    artist: "Lady Gaga",
-    eraCreated: 2008,
-    genre: "Pop",
-    recordCompany: "Interscope Records",
-    discontinued: false,
-    description:
-      "For fans of Pop, 'The Fame' by Lady Gaga is a timeless classic that has stood the test of time since 2008. Produced by Interscope Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "PC 4748",
+    Title: "The Fame",
+    Artist: "Lady Gaga",
+    EraCreated: 2008,
+    RecordCompany: "Interscope Records",
+    Discontinued: false,
+    Description:
+      "For fans of Pop, 'The Fame' by Lady Gaga is a timeless classic that has stood the test of time since 2008. Produced by Interscope Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 7,
+    price: 113.9,
+    id: 13,
+    category: "c1"
   },
   {
-    id: "P14",
-    catalogNumber: "MOVLP 2345",
-    title: "Like a Virgin",
-    artist: "Madonna",
-    eraCreated: 1984,
-    genre: "Pop",
-    recordCompany: "Sire Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2345",
+    Title: "Like a Virgin",
+    Artist: "Madonna",
+    EraCreated: 1984,
+    RecordCompany: "Sire Records",
+    Discontinued: true,
+    Description:
       "Madonna's 'Like a Virgin' is celebrated as a defining moment in Pop, showcasing unparalleled artistry since 1984. Brought to the world by Sire Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 80.76,
+    id: 14,
+    category: "c1"
   },
   {
-    id: "P15",
-    catalogNumber: "B0029859-01",
-    title: "Chromatica",
-    artist: "Lady Gaga",
-    eraCreated: 2020,
-    genre: "Pop",
-    recordCompany: "Interscope Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0029859-01",
+    Title: "Chromatica",
+    Artist: "Lady Gaga",
+    EraCreated: 2020,
+    RecordCompany: "Interscope Records",
+    Discontinued: false,
+    Description:
       "'Chromatica' by Lady Gaga is a landmark in Pop, first released in 2020. Crafted under Interscope Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 48.0,
+    id: 15,
+    category: "c1"
   },
   {
-    id: "P16",
-    catalogNumber: "R1 789123",
-    title: "FutureSex/LoveSounds",
-    artist: "Justin Timberlake",
-    eraCreated: 2006,
-    genre: "Pop",
-    recordCompany: "Jive Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "R1 789123",
+    Title: "FutureSex/LoveSounds",
+    Artist: "Justin Timberlake",
+    EraCreated: 2006,
+    RecordCompany: "Jive Records",
+    Discontinued: false,
+    Description:
       "With its release in 2006, 'FutureSex/LoveSounds' by Justin Timberlake under Jive Records set the bar for Pop music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 66.29,
+    id: 16,
+    category: "c1"
   },
   {
-    id: "P17",
-    catalogNumber: "MOVLP 2200",
-    title: "Emotion",
-    artist: "Carly Rae Jepsen",
-    eraCreated: 2015,
-    genre: "Pop",
-    recordCompany: "604 Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 2200",
+    Title: "Emotion",
+    Artist: "Carly Rae Jepsen",
+    EraCreated: 2015,
+    RecordCompany: "604 Records",
+    Discontinued: false,
+    Description:
       "With its release in 2015, 'Emotion' by Carly Rae Jepsen under 604 Records set the bar for Pop music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 64.12,
+    id: 17,
+    category: "c1"
   },
   {
-    id: "P18",
-    catalogNumber: "MOVLP 222",
-    title: "Bad",
-    artist: "Michael Jackson",
-    eraCreated: 1987,
-    genre: "Pop",
-    recordCompany: "Epic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 222",
+    Title: "Bad",
+    Artist: "Michael Jackson",
+    EraCreated: 1987,
+    RecordCompany: "Epic Records",
+    Discontinued: true,
+    Description:
       "Michael Jackson's 'Bad' is celebrated as a defining moment in Pop, showcasing unparalleled artistry since 1987. Brought to the world by Epic Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 163.21,
+    id: 18,
+    category: "c1"
   },
   {
-    id: "P19",
-    catalogNumber: "MOVLP 999",
-    title: "Speak Now",
-    artist: "Taylor Swift",
-    eraCreated: 2010,
-    genre: "Pop",
-    recordCompany: "Big Machine Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 999",
+    Title: "Speak Now",
+    Artist: "Taylor Swift",
+    EraCreated: 2010,
+    RecordCompany: "Big Machine Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Pop albums, 'Speak Now' by Taylor Swift has captivated audiences since its release in 2010. Released by Big Machine Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 94.32,
+    id: 19,
+    category: "c1"
   },
   {
-    id: "P20",
-    catalogNumber: "B0028815-01",
-    title: "Sweetener",
-    artist: "Ariana Grande",
-    eraCreated: 2018,
-    genre: "Pop",
-    recordCompany: "Republic Records",
-    discontinued: false,
-    description:
-      "For fans of Pop, 'Sweetener' by Ariana Grande is a timeless classic that has stood the test of time since 2018. Produced by Republic Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0028815-01",
+    Title: "Sweetener",
+    Artist: "Ariana Grande",
+    EraCreated: 2018,
+    RecordCompany: "Republic Records",
+    Discontinued: false,
+    Description:
+      "For fans of Pop, 'Sweetener' by Ariana Grande is a timeless classic that has stood the test of time since 2018. Produced by Republic Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 68.88,
+    id: 20,
+    category: "c1"
   },
   {
-    id: "P21",
-    catalogNumber: "B0023464-01",
-    title: "To Pimp a Butterfly",
-    artist: "Kendrick Lamar",
-    eraCreated: 2015,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Interscope Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0023464-01",
+    Title: "To Pimp a Butterfly",
+    Artist: "Kendrick Lamar",
+    EraCreated: 2015,
+    RecordCompany: "Interscope Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Hip-Hop/Rap albums, 'To Pimp a Butterfly' by Kendrick Lamar has captivated audiences since its release in 2015. Released by Interscope Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 46.8,
+    id: 21,
+    category: "c2"
   },
   {
-    id: "P22",
-    catalogNumber: "B0017695-01",
-    title: "good kid, m.A.A.d city",
-    artist: "Kendrick Lamar",
-    eraCreated: 2012,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Interscope Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0017695-01",
+    Title: "good kid, m.A.A.d city",
+    Artist: "Kendrick Lamar",
+    EraCreated: 2012,
+    RecordCompany: "Interscope Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Hip-Hop/Rap albums, 'good kid, m.A.A.d city' by Kendrick Lamar has captivated audiences since its release in 2012. Released by Interscope Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 49.36,
+    id: 22,
+    category: "c2"
   },
   {
-    id: "P23",
-    catalogNumber: "B0027047-01",
-    title: "DAMN.",
-    artist: "Kendrick Lamar",
-    eraCreated: 2017,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Top Dawg Entertainment",
-    discontinued: false,
-    description:
-      "For fans of Hip-Hop/Rap, 'DAMN.' by Kendrick Lamar is a timeless classic that has stood the test of time since 2017. Produced by Top Dawg Entertainment, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0027047-01",
+    Title: "DAMN.",
+    Artist: "Kendrick Lamar",
+    EraCreated: 2017,
+    RecordCompany: "Top Dawg Entertainment",
+    Discontinued: false,
+    Description:
+      "For fans of Hip-Hop/Rap, 'DAMN.' by Kendrick Lamar is a timeless classic that has stood the test of time since 2017. Produced by Top Dawg Entertainment, it\u2019s a piece that resonates with music lovers.",
+    quantity: 1,
+    price: 26.11,
+    id: 23,
+    category: "c2"
   },
   {
-    id: "P24",
-    catalogNumber: "B0000029",
-    title: "The Chronic",
-    artist: "Dr. Dre",
-    eraCreated: 1992,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Death Row Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0000029",
+    Title: "The Chronic",
+    Artist: "Dr. Dre",
+    EraCreated: 1992,
+    RecordCompany: "Death Row Records",
+    Discontinued: false,
+    Description:
       "'The Chronic' by Dr. Dre is a landmark in Hip-Hop/Rap, first released in 1992. Crafted under Death Row Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 109.24,
+    id: 24,
+    category: "c2"
   },
   {
-    id: "P25",
-    catalogNumber: "MOVLP 450",
-    title: "Illmatic",
-    artist: "Nas",
-    eraCreated: 1994,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
-      "For fans of Hip-Hop/Rap, 'Illmatic' by Nas is a timeless classic that has stood the test of time since 1994. Produced by Columbia Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 450",
+    Title: "Illmatic",
+    Artist: "Nas",
+    EraCreated: 1994,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
+      "For fans of Hip-Hop/Rap, 'Illmatic' by Nas is a timeless classic that has stood the test of time since 1994. Produced by Columbia Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 1,
+    price: 174.25,
+    id: 25,
+    category: "c2"
   },
   {
-    id: "P26",
-    catalogNumber: "R1 547457",
-    title: "The Blueprint",
-    artist: "Jay-Z",
-    eraCreated: 2001,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Roc-A-Fella Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "R1 547457",
+    Title: "The Blueprint",
+    Artist: "Jay-Z",
+    EraCreated: 2001,
+    RecordCompany: "Roc-A-Fella Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Hip-Hop/Rap albums, 'The Blueprint' by Jay-Z has captivated audiences since its release in 2001. Released by Roc-A-Fella Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 95.22,
+    id: 26,
+    category: "c2"
   },
   {
-    id: "P27",
-    catalogNumber: "B0029424-01",
-    title: "Blonde",
-    artist: "Frank Ocean",
-    eraCreated: 2016,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Boys Don't Cry",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0029424-01",
+    Title: "Blonde",
+    Artist: "Frank Ocean",
+    EraCreated: 2016,
+    RecordCompany: "Boys Don't Cry",
+    Discontinued: false,
+    Description:
       "'Blonde' by Frank Ocean is a landmark in Hip-Hop/Rap, first released in 2016. Crafted under Boys Don't Cry, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 399.16,
+    id: 27,
+    category: "c2"
   },
   {
-    id: "P28",
-    catalogNumber: "PC 123456",
-    title: "Graduation",
-    artist: "Kanye West",
-    eraCreated: 2007,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Def Jam Recordings",
-    discontinued: false,
-    description:
-      "For fans of Hip-Hop/Rap, 'Graduation' by Kanye West is a timeless classic that has stood the test of time since 2007. Produced by Def Jam Recordings, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "PC 123456",
+    Title: "Graduation",
+    Artist: "Kanye West",
+    EraCreated: 2007,
+    RecordCompany: "Def Jam Recordings",
+    Discontinued: false,
+    Description:
+      "For fans of Hip-Hop/Rap, 'Graduation' by Kanye West is a timeless classic that has stood the test of time since 2007. Produced by Def Jam Recordings, it\u2019s a piece that resonates with music lovers.",
+    quantity: 8,
+    price: 116.24,
+    id: 28,
+    category: "c2"
   },
   {
-    id: "P29",
-    catalogNumber: "B0032843-01",
-    title: "Astroworld",
-    artist: "Travis Scott",
-    eraCreated: 2018,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Epic Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0032843-01",
+    Title: "Astroworld",
+    Artist: "Travis Scott",
+    EraCreated: 2018,
+    RecordCompany: "Epic Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Hip-Hop/Rap albums, 'Astroworld' by Travis Scott has captivated audiences since its release in 2018. Released by Epic Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 77.04,
+    id: 29,
+    category: "c2"
   },
   {
-    id: "P30",
-    catalogNumber: "MOVLP 234",
-    title: "Enter the Wu-Tang (36 Chambers)",
-    artist: "Wu-Tang Clan",
-    eraCreated: 1993,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Loud Records",
-    discontinued: false,
-    description:
-      "For fans of Hip-Hop/Rap, 'Enter the Wu-Tang (36 Chambers)' by Wu-Tang Clan is a timeless classic that has stood the test of time since 1993. Produced by Loud Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 234",
+    Title: "Enter the Wu-Tang (36 Chambers)",
+    Artist: "Wu-Tang Clan",
+    EraCreated: 1993,
+    RecordCompany: "Loud Records",
+    Discontinued: false,
+    Description:
+      "For fans of Hip-Hop/Rap, 'Enter the Wu-Tang (36 Chambers)' by Wu-Tang Clan is a timeless classic that has stood the test of time since 1993. Produced by Loud Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 5,
+    price: 162.16,
+    id: 30,
+    category: "c2"
   },
   {
-    id: "P31",
-    catalogNumber: "B0017382-02",
-    title: "The Marshall Mathers LP",
-    artist: "Eminem",
-    eraCreated: 2000,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Interscope Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0017382-02",
+    Title: "The Marshall Mathers LP",
+    Artist: "Eminem",
+    EraCreated: 2000,
+    RecordCompany: "Interscope Records",
+    Discontinued: false,
+    Description:
       "With its release in 2000, 'The Marshall Mathers LP' by Eminem under Interscope Records set the bar for Hip-Hop/Rap music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 66.38,
+    id: 31,
+    category: "c2"
   },
   {
-    id: "P32",
-    catalogNumber: "MOVLP 2345",
-    title: "Ready to Die",
-    artist: "The Notorious B.I.G.",
-    eraCreated: 1994,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Bad Boy Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 2345",
+    Title: "Ready to Die",
+    Artist: "The Notorious B.I.G.",
+    EraCreated: 1994,
+    RecordCompany: "Bad Boy Records",
+    Discontinued: false,
+    Description:
       "The Notorious B.I.G.'s 'Ready to Die' is celebrated as a defining moment in Hip-Hop/Rap, showcasing unparalleled artistry since 1994. Brought to the world by Bad Boy Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 198.16,
+    id: 32,
+    category: "c2"
   },
   {
-    id: "P33",
-    catalogNumber: "MOVLP 1350",
-    title: "2001",
-    artist: "Dr. Dre",
-    eraCreated: 1999,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Aftermath Entertainment",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 1350",
+    Title: "2001",
+    Artist: "Dr. Dre",
+    EraCreated: 1999,
+    RecordCompany: "Aftermath Entertainment",
+    Discontinued: false,
+    Description:
       "With its release in 1999, '2001' by Dr. Dre under Aftermath Entertainment set the bar for Hip-Hop/Rap music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 110.17,
+    id: 33,
+    category: "c2"
   },
   {
-    id: "P34",
-    catalogNumber: "R1 123467",
-    title: "My Beautiful Dark Twisted Fantasy",
-    artist: "Kanye West",
-    eraCreated: 2010,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Roc-A-Fella Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "R1 123467",
+    Title: "My Beautiful Dark Twisted Fantasy",
+    Artist: "Kanye West",
+    EraCreated: 2010,
+    RecordCompany: "Roc-A-Fella Records",
+    Discontinued: false,
+    Description:
       "With its release in 2010, 'My Beautiful Dark Twisted Fantasy' by Kanye West under Roc-A-Fella Records set the bar for Hip-Hop/Rap music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 165.67,
+    id: 34,
+    category: "c2"
   },
   {
-    id: "P35",
-    catalogNumber: "PC 4749",
-    title: "Madvillainy",
-    artist: "Madvillain (MF DOOM & Madlib)",
-    eraCreated: 2004,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Stones Throw Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "PC 4749",
+    Title: "Madvillainy",
+    Artist: "Madvillain (MF DOOM & Madlib)",
+    EraCreated: 2004,
+    RecordCompany: "Stones Throw Records",
+    Discontinued: false,
+    Description:
       "'Madvillainy' by Madvillain (MF DOOM & Madlib) is a landmark in Hip-Hop/Rap, first released in 2004. Crafted under Stones Throw Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 98.96,
+    id: 35,
+    category: "c2"
   },
   {
-    id: "P36",
-    catalogNumber: "B0027611-01",
-    title: "Nothing Was the Same",
-    artist: "Drake",
-    eraCreated: 2013,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Young Money Entertainment",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0027611-01",
+    Title: "Nothing Was the Same",
+    Artist: "Drake",
+    EraCreated: 2013,
+    RecordCompany: "Young Money Entertainment",
+    Discontinued: false,
+    Description:
       "With its release in 2013, 'Nothing Was the Same' by Drake under Young Money Entertainment set the bar for Hip-Hop/Rap music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 46.93,
+    id: 36,
+    category: "c2"
   },
   {
-    id: "P37",
-    catalogNumber: "R1 789124",
-    title: "Stankonia",
-    artist: "OutKast",
-    eraCreated: 2000,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "LaFace Records",
-    discontinued: false,
-    description:
-      "For fans of Hip-Hop/Rap, 'Stankonia' by OutKast is a timeless classic that has stood the test of time since 2000. Produced by LaFace Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "R1 789124",
+    Title: "Stankonia",
+    Artist: "OutKast",
+    EraCreated: 2000,
+    RecordCompany: "LaFace Records",
+    Discontinued: false,
+    Description:
+      "For fans of Hip-Hop/Rap, 'Stankonia' by OutKast is a timeless classic that has stood the test of time since 2000. Produced by LaFace Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 69.92,
+    id: 37,
+    category: "c2"
   },
   {
-    id: "P38",
-    catalogNumber: "MOVLP 2501",
-    title: "Atrocity Exhibition",
-    artist: "Danny Brown",
-    eraCreated: 2016,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Warp Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 2501",
+    Title: "Atrocity Exhibition",
+    Artist: "Danny Brown",
+    EraCreated: 2016,
+    RecordCompany: "Warp Records",
+    Discontinued: false,
+    Description:
       "Danny Brown's 'Atrocity Exhibition' is celebrated as a defining moment in Hip-Hop/Rap, showcasing unparalleled artistry since 2016. Brought to the world by Warp Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 57.53,
+    id: 38,
+    category: "c2"
   },
   {
-    id: "P39",
-    catalogNumber: "B0031550-01",
-    title: "Flower Boy",
-    artist: "Tyler, The Creator",
-    eraCreated: 2017,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0031550-01",
+    Title: "Flower Boy",
+    Artist: "Tyler, The Creator",
+    EraCreated: 2017,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
       "With its release in 2017, 'Flower Boy' by Tyler, The Creator under Columbia Records set the bar for Hip-Hop/Rap music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 61.39,
+    id: 39,
+    category: "c2"
   },
   {
-    id: "P40",
-    catalogNumber: "B0024290-01",
-    title: "Man on the Moon: The End of Day",
-    artist: "Kid Cudi",
-    eraCreated: 2009,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Universal Motown",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0024290-01",
+    Title: "Man on the Moon: The End of Day",
+    Artist: "Kid Cudi",
+    EraCreated: 2009,
+    RecordCompany: "Universal Motown",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Hip-Hop/Rap albums, 'Man on the Moon: The End of Day' by Kid Cudi has captivated audiences since its release in 2009. Released by Universal Motown, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 94.84,
+    id: 40,
+    category: "c2"
   },
   {
-    id: "P41",
-    catalogNumber: "MOVLP 123",
-    title: "The Low End Theory",
-    artist: "A Tribe Called Quest",
-    eraCreated: 1991,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Jive Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 123",
+    Title: "The Low End Theory",
+    Artist: "A Tribe Called Quest",
+    EraCreated: 1991,
+    RecordCompany: "Jive Records",
+    Discontinued: false,
+    Description:
       "'The Low End Theory' by A Tribe Called Quest is a landmark in Hip-Hop/Rap, first released in 1991. Crafted under Jive Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 132.45,
+    id: 41,
+    category: "c2"
   },
   {
-    id: "P42",
-    catalogNumber: "MOVLP 456",
-    title: "Midnight Marauders",
-    artist: "A Tribe Called Quest",
-    eraCreated: 1993,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Jive Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 456",
+    Title: "Midnight Marauders",
+    Artist: "A Tribe Called Quest",
+    EraCreated: 1993,
+    RecordCompany: "Jive Records",
+    Discontinued: false,
+    Description:
       "With its release in 1993, 'Midnight Marauders' by A Tribe Called Quest under Jive Records set the bar for Hip-Hop/Rap music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 90.4,
+    id: 42,
+    category: "c2"
   },
   {
-    id: "P43",
-    catalogNumber: "MOVLP 789",
-    title: "People's Instinctive Travels and the Paths of Rhythm",
-    artist: "A Tribe Called Quest",
-    eraCreated: 1990,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Jive Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 789",
+    Title: "People's Instinctive Travels and the Paths of Rhythm",
+    Artist: "A Tribe Called Quest",
+    EraCreated: 1990,
+    RecordCompany: "Jive Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Hip-Hop/Rap albums, 'People's Instinctive Travels and the Paths of Rhythm' by A Tribe Called Quest has captivated audiences since its release in 1990. Released by Jive Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 110.84,
+    id: 43,
+    category: "c2"
   },
   {
-    id: "P44",
-    catalogNumber: "B0028102-01",
-    title: "We got it from Here... Thank You 4 Your service",
-    artist: "A Tribe Called Quest",
-    eraCreated: 2016,
-    genre: "Hip-Hop/Rap",
-    recordCompany: "Epic Records",
-    discontinued: false,
-    description:
-      "For fans of Hip-Hop/Rap, 'We got it from Here... Thank You 4 Your service' by A Tribe Called Quest is a timeless classic that has stood the test of time since 2016. Produced by Epic Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0028102-01",
+    Title: "We got it from Here... Thank You 4 Your service",
+    Artist: "A Tribe Called Quest",
+    EraCreated: 2016,
+    RecordCompany: "Epic Records",
+    Discontinued: false,
+    Description:
+      "For fans of Hip-Hop/Rap, 'We got it from Here... Thank You 4 Your service' by A Tribe Called Quest is a timeless classic that has stood the test of time since 2016. Produced by Epic Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 6,
+    price: 84.77,
+    id: 44,
+    category: "c2"
   },
   {
-    id: "P45",
-    catalogNumber: "MOVLP 1011",
-    title: "Songs in the Key of Life",
-    artist: "Stevie Wonder",
-    eraCreated: 1976,
-    genre: "R&B",
-    recordCompany: "Tamla Records",
-    discontinued: true,
-    description:
-      "For fans of R&B, 'Songs in the Key of Life' by Stevie Wonder is a timeless classic that has stood the test of time since 1976. Produced by Tamla Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 1011",
+    Title: "Songs in the Key of Life",
+    Artist: "Stevie Wonder",
+    EraCreated: 1976,
+    RecordCompany: "Tamla Records",
+    Discontinued: true,
+    Description:
+      "For fans of R&B, 'Songs in the Key of Life' by Stevie Wonder is a timeless classic that has stood the test of time since 1976. Produced by Tamla Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 8,
+    price: 150.05,
+    id: 45,
+    category: "c3"
   },
   {
-    id: "P46",
-    catalogNumber: "B0023423-01",
-    title: "Lemonade",
-    artist: "Beyoncé",
-    eraCreated: 2016,
-    genre: "R&B",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
-      "As one of the most iconic R&B albums, 'Lemonade' by Beyoncé has captivated audiences since its release in 2016. Released by Columbia Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    CatalogNumber: "B0023423-01",
+    Title: "Lemonade",
+    Artist: "Beyonc\u00e9",
+    EraCreated: 2016,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
+      "As one of the most iconic R&B albums, 'Lemonade' by Beyonc\u00e9 has captivated audiences since its release in 2016. Released by Columbia Records, it holds a special place in any collector's library.",
+    quantity: 5,
+    price: 175.73,
+    id: 46,
+    category: "c3"
   },
   {
-    id: "P47",
-    catalogNumber: "B0012341-01",
-    title: "Channel Orange",
-    artist: "Frank Ocean",
-    eraCreated: 2012,
-    genre: "R&B",
-    recordCompany: "Def Jam Recordings",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0012341-01",
+    Title: "Channel Orange",
+    Artist: "Frank Ocean",
+    EraCreated: 2012,
+    RecordCompany: "Def Jam Recordings",
+    Discontinued: false,
+    Description:
       "Frank Ocean's 'Channel Orange' is celebrated as a defining moment in R&B, showcasing unparalleled artistry since 2012. Brought to the world by Def Jam Recordings, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 128.7,
+    id: 47,
+    category: "c3"
   },
   {
-    id: "P48",
-    catalogNumber: "MOVLP 201",
-    title: "I Never Loved a Man the Way I Love You",
-    artist: "Aretha Franklin",
-    eraCreated: 1967,
-    genre: "R&B",
-    recordCompany: "Atlantic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 201",
+    Title: "I Never Loved a Man the Way I Love You",
+    Artist: "Aretha Franklin",
+    EraCreated: 1967,
+    RecordCompany: "Atlantic Records",
+    Discontinued: true,
+    Description:
       "'I Never Loved a Man the Way I Love You' by Aretha Franklin is a landmark in R&B, first released in 1967. Crafted under Atlantic Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 186.36,
+    id: 48,
+    category: "c3"
   },
   {
-    id: "P49",
-    catalogNumber: "R1 738234",
-    title: "Confessions",
-    artist: "Usher",
-    eraCreated: 2004,
-    genre: "R&B",
-    recordCompany: "Arista Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "R1 738234",
+    Title: "Confessions",
+    Artist: "Usher",
+    EraCreated: 2004,
+    RecordCompany: "Arista Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic R&B albums, 'Confessions' by Usher has captivated audiences since its release in 2004. Released by Arista Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 91.16,
+    id: 49,
+    category: "c3"
   },
   {
-    id: "P50",
-    catalogNumber: "MOVLP 2205",
-    title: "A Seat at the Table",
-    artist: "Solange",
-    eraCreated: 2016,
-    genre: "R&B",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 2205",
+    Title: "A Seat at the Table",
+    Artist: "Solange",
+    EraCreated: 2016,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
       "With its release in 2016, 'A Seat at the Table' by Solange under Columbia Records set the bar for R&B music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 95.71,
+    id: 50,
+    category: "c3"
   },
   {
-    id: "P51",
-    catalogNumber: "B0019822-01",
-    title: "The Miseducation of Lauryn Hill",
-    artist: "Lauryn Hill",
-    eraCreated: 1998,
-    genre: "R&B",
-    recordCompany: "Ruffhouse Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0019822-01",
+    Title: "The Miseducation of Lauryn Hill",
+    Artist: "Lauryn Hill",
+    EraCreated: 1998,
+    RecordCompany: "Ruffhouse Records",
+    Discontinued: false,
+    Description:
       "'The Miseducation of Lauryn Hill' by Lauryn Hill is a landmark in R&B, first released in 1998. Crafted under Ruffhouse Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 161.84,
+    id: 51,
+    category: "c3"
   },
   {
-    id: "P52",
-    catalogNumber: "MOVLP 1945",
-    title: "Purple Rain",
-    artist: "Prince",
-    eraCreated: 1984,
-    genre: "R&B",
-    recordCompany: "Warner Bros. Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1945",
+    Title: "Purple Rain",
+    Artist: "Prince",
+    EraCreated: 1984,
+    RecordCompany: "Warner Bros. Records",
+    Discontinued: true,
+    Description:
       "With its release in 1984, 'Purple Rain' by Prince under Warner Bros. Records set the bar for R&B music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 263.38,
+    id: 52,
+    category: "c3"
   },
   {
-    id: "P53",
-    catalogNumber: "R1 567123",
-    title: "What's Going On",
-    artist: "Marvin Gaye",
-    eraCreated: 1971,
-    genre: "R&B",
-    recordCompany: "Tamla Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "R1 567123",
+    Title: "What's Going On",
+    Artist: "Marvin Gaye",
+    EraCreated: 1971,
+    RecordCompany: "Tamla Records",
+    Discontinued: true,
+    Description:
       "With its release in 1971, 'What's Going On' by Marvin Gaye under Tamla Records set the bar for R&B music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 236.59,
+    id: 53,
+    category: "c3"
   },
   {
-    id: "P54",
-    catalogNumber: "B0025214-01",
-    title: "Black Messiah",
-    artist: "D'Angelo and The Vanguard",
-    eraCreated: 2014,
-    genre: "R&B",
-    recordCompany: "RCA Records",
-    discontinued: false,
-    description:
-      "For fans of R&B, 'Black Messiah' by D'Angelo and The Vanguard is a timeless classic that has stood the test of time since 2014. Produced by RCA Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0025214-01",
+    Title: "Black Messiah",
+    Artist: "D'Angelo and The Vanguard",
+    EraCreated: 2014,
+    RecordCompany: "RCA Records",
+    Discontinued: false,
+    Description:
+      "For fans of R&B, 'Black Messiah' by D'Angelo and The Vanguard is a timeless classic that has stood the test of time since 2014. Produced by RCA Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 2,
+    price: 72.3,
+    id: 54,
+    category: "c3"
   },
   {
-    id: "P55",
-    catalogNumber: "MOVLP 3388",
-    title: "The Emancipation of Mimi",
-    artist: "Mariah Carey",
-    eraCreated: 2005,
-    genre: "R&B",
-    recordCompany: "Island Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 3388",
+    Title: "The Emancipation of Mimi",
+    Artist: "Mariah Carey",
+    EraCreated: 2005,
+    RecordCompany: "Island Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic R&B albums, 'The Emancipation of Mimi' by Mariah Carey has captivated audiences since its release in 2005. Released by Island Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 66.71,
+    id: 55,
+    category: "c3"
   },
   {
-    id: "P56",
-    catalogNumber: "B0034567-01",
-    title: "How to Be a Human Being",
-    artist: "Glass Animals",
-    eraCreated: 2016,
-    genre: "R&B",
-    recordCompany: "Wolf Tone Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0034567-01",
+    Title: "How to Be a Human Being",
+    Artist: "Glass Animals",
+    EraCreated: 2016,
+    RecordCompany: "Wolf Tone Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic R&B albums, 'How to Be a Human Being' by Glass Animals has captivated audiences since its release in 2016. Released by Wolf Tone Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 56.1,
+    id: 56,
+    category: "c3"
   },
   {
-    id: "P57",
-    catalogNumber: "MOVLP 1015",
-    title: "Off the Wall",
-    artist: "Michael Jackson",
-    eraCreated: 1979,
-    genre: "R&B",
-    recordCompany: "Epic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1015",
+    Title: "Off the Wall",
+    Artist: "Michael Jackson",
+    EraCreated: 1979,
+    RecordCompany: "Epic Records",
+    Discontinued: true,
+    Description:
       "'Off the Wall' by Michael Jackson is a landmark in R&B, first released in 1979. Crafted under Epic Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 157.33,
+    id: 57,
+    category: "c3"
   },
   {
-    id: "P58",
-    catalogNumber: "MOVLP 7891",
-    title: "Baduizm",
-    artist: "Erykah Badu",
-    eraCreated: 1997,
-    genre: "R&B",
-    recordCompany: "Universal Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 7891",
+    Title: "Baduizm",
+    Artist: "Erykah Badu",
+    EraCreated: 1997,
+    RecordCompany: "Universal Records",
+    Discontinued: false,
+    Description:
       "'Baduizm' by Erykah Badu is a landmark in R&B, first released in 1997. Crafted under Universal Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 120.35,
+    id: 58,
+    category: "c3"
   },
   {
-    id: "P59",
-    catalogNumber: "B0027691-01",
-    title: "CTRL",
-    artist: "SZA",
-    eraCreated: 2017,
-    genre: "R&B",
-    recordCompany: "Top Dawg Entertainment",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0027691-01",
+    Title: "CTRL",
+    Artist: "SZA",
+    EraCreated: 2017,
+    RecordCompany: "Top Dawg Entertainment",
+    Discontinued: false,
+    Description:
       "As one of the most iconic R&B albums, 'CTRL' by SZA has captivated audiences since its release in 2017. Released by Top Dawg Entertainment, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 84.53,
+    id: 59,
+    category: "c3"
   },
   {
-    id: "P60",
-    catalogNumber: "MOVLP 2023",
-    title: "Voodoo",
-    artist: "D'Angelo",
-    eraCreated: 2000,
-    genre: "R&B",
-    recordCompany: "Virgin Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 2023",
+    Title: "Voodoo",
+    Artist: "D'Angelo",
+    EraCreated: 2000,
+    RecordCompany: "Virgin Records",
+    Discontinued: false,
+    Description:
       "With its release in 2000, 'Voodoo' by D'Angelo under Virgin Records set the bar for R&B music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 178.49,
+    id: 60,
+    category: "c3"
   },
   {
-    id: "P61",
-    catalogNumber: "MOVLP 3990",
-    title: "Back to Black",
-    artist: "Amy Winehouse",
-    eraCreated: 2006,
-    genre: "R&B",
-    recordCompany: "Island Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 3990",
+    Title: "Back to Black",
+    Artist: "Amy Winehouse",
+    EraCreated: 2006,
+    RecordCompany: "Island Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic R&B albums, 'Back to Black' by Amy Winehouse has captivated audiences since its release in 2006. Released by Island Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 95.47,
+    id: 61,
+    category: "c3"
   },
   {
-    id: "P62",
-    catalogNumber: "B0032345-01",
-    title: "Funk Wav Bounces Vol. 1",
-    artist: "Calvin Harris",
-    eraCreated: 2017,
-    genre: "R&B",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0032345-01",
+    Title: "Funk Wav Bounces Vol. 1",
+    Artist: "Calvin Harris",
+    EraCreated: 2017,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
       "With its release in 2017, 'Funk Wav Bounces Vol. 1' by Calvin Harris under Columbia Records set the bar for R&B music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 49.27,
+    id: 62,
+    category: "c3"
   },
   {
-    id: "P63",
-    catalogNumber: "MOVLP 1498",
-    title: "Dangerously in Love",
-    artist: "Beyoncé",
-    eraCreated: 2003,
-    genre: "R&B",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
-      "With its release in 2003, 'Dangerously in Love' by Beyoncé under Columbia Records set the bar for R&B music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 1498",
+    Title: "Dangerously in Love",
+    Artist: "Beyonc\u00e9",
+    EraCreated: 2003,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
+      "With its release in 2003, 'Dangerously in Love' by Beyonc\u00e9 under Columbia Records set the bar for R&B music. Its influence can still be felt today, making it a cherished addition to any collection.",
+    quantity: 5,
+    price: 80.9,
+    id: 63,
+    category: "c3"
   },
   {
-    id: "P64",
-    catalogNumber: "B0017362-01",
-    title: "Talking Book",
-    artist: "Stevie Wonder",
-    eraCreated: 1972,
-    genre: "R&B",
-    recordCompany: "Tamla Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0017362-01",
+    Title: "Talking Book",
+    Artist: "Stevie Wonder",
+    EraCreated: 1972,
+    RecordCompany: "Tamla Records",
+    Discontinued: true,
+    Description:
       "'Talking Book' by Stevie Wonder is a landmark in R&B, first released in 1972. Crafted under Tamla Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 137.97,
+    id: 64,
+    category: "c3"
   },
   {
-    id: "P65",
-    catalogNumber: "SVLP 280",
-    title: "Dark Side of the Moon",
-    artist: "Pink Floyd",
-    eraCreated: 1973,
-    genre: "Rock",
-    recordCompany: "Harvest Records",
-    discontinued: true,
-    description:
-      "For fans of Rock, 'Dark Side of the Moon' by Pink Floyd is a timeless classic that has stood the test of time since 1973. Produced by Harvest Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "SVLP 280",
+    Title: "Dark Side of the Moon",
+    Artist: "Pink Floyd",
+    EraCreated: 1973,
+    RecordCompany: "Harvest Records",
+    Discontinued: true,
+    Description:
+      "For fans of Rock, 'Dark Side of the Moon' by Pink Floyd is a timeless classic that has stood the test of time since 1973. Produced by Harvest Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 341.6,
+    id: 65,
+    category: "c4"
   },
   {
-    id: "P66",
-    catalogNumber: "PC 33453",
-    title: "The Wall",
-    artist: "Pink Floyd",
-    eraCreated: 1979,
-    genre: "Rock",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "PC 33453",
+    Title: "The Wall",
+    Artist: "Pink Floyd",
+    EraCreated: 1979,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Rock albums, 'The Wall' by Pink Floyd has captivated audiences since its release in 1979. Released by Columbia Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 187.84,
+    id: 66,
+    category: "c4"
   },
   {
-    id: "P67",
-    catalogNumber: "R1 61898",
-    title: "Led Zeppelin IV",
-    artist: "Led Zeppelin",
-    eraCreated: 1971,
-    genre: "Rock",
-    recordCompany: "Atlantic Records",
-    discontinued: true,
-    description:
-      "For fans of Rock, 'Led Zeppelin IV' by Led Zeppelin is a timeless classic that has stood the test of time since 1971. Produced by Atlantic Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "R1 61898",
+    Title: "Led Zeppelin IV",
+    Artist: "Led Zeppelin",
+    EraCreated: 1971,
+    RecordCompany: "Atlantic Records",
+    Discontinued: true,
+    Description:
+      "For fans of Rock, 'Led Zeppelin IV' by Led Zeppelin is a timeless classic that has stood the test of time since 1971. Produced by Atlantic Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 10,
+    price: 340.78,
+    id: 67,
+    category: "c4"
   },
   {
-    id: "P68",
-    catalogNumber: "MOVLP 991",
-    title: "Rumours",
-    artist: "Fleetwood Mac",
-    eraCreated: 1977,
-    genre: "Rock",
-    recordCompany: "Warner Bros. Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 991",
+    Title: "Rumours",
+    Artist: "Fleetwood Mac",
+    EraCreated: 1977,
+    RecordCompany: "Warner Bros. Records",
+    Discontinued: true,
+    Description:
       "Fleetwood Mac's 'Rumours' is celebrated as a defining moment in Rock, showcasing unparalleled artistry since 1977. Brought to the world by Warner Bros. Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 261.77,
+    id: 68,
+    category: "c4"
   },
   {
-    id: "P69",
-    catalogNumber: "R1 789124",
-    title: "Abbey Road",
-    artist: "The Beatles",
-    eraCreated: 1969,
-    genre: "Rock",
-    recordCompany: "Apple Records",
-    discontinued: true,
-    description:
-      "For fans of Rock, 'Abbey Road' by The Beatles is a timeless classic that has stood the test of time since 1969. Produced by Apple Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "R1 789124",
+    Title: "Abbey Road",
+    Artist: "The Beatles",
+    EraCreated: 1969,
+    RecordCompany: "Apple Records",
+    Discontinued: true,
+    Description:
+      "For fans of Rock, 'Abbey Road' by The Beatles is a timeless classic that has stood the test of time since 1969. Produced by Apple Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 418.31,
+    id: 69,
+    category: "c4"
   },
   {
-    id: "P70",
-    catalogNumber: "R1 9823",
-    title: "Hotel California",
-    artist: "Eagles",
-    eraCreated: 1976,
-    genre: "Rock",
-    recordCompany: "Asylum Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "R1 9823",
+    Title: "Hotel California",
+    Artist: "Eagles",
+    EraCreated: 1976,
+    RecordCompany: "Asylum Records",
+    Discontinued: true,
+    Description:
       "Eagles's 'Hotel California' is celebrated as a defining moment in Rock, showcasing unparalleled artistry since 1976. Brought to the world by Asylum Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 258.85,
+    id: 70,
+    category: "c4"
   },
   {
-    id: "P71",
-    catalogNumber: "SVLP 1234",
-    title: "The Joshua Tree",
-    artist: "U2",
-    eraCreated: 1987,
-    genre: "Rock",
-    recordCompany: "Island Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "SVLP 1234",
+    Title: "The Joshua Tree",
+    Artist: "U2",
+    EraCreated: 1987,
+    RecordCompany: "Island Records",
+    Discontinued: true,
+    Description:
       "'The Joshua Tree' by U2 is a landmark in Rock, first released in 1987. Crafted under Island Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 332.38,
+    id: 71,
+    category: "c4"
   },
   {
-    id: "P72",
-    catalogNumber: "MOVLP 321",
-    title: "Back in Black",
-    artist: "AC/DC",
-    eraCreated: 1980,
-    genre: "Rock",
-    recordCompany: "Atlantic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 321",
+    Title: "Back in Black",
+    Artist: "AC/DC",
+    EraCreated: 1980,
+    RecordCompany: "Atlantic Records",
+    Discontinued: true,
+    Description:
       "AC/DC's 'Back in Black' is celebrated as a defining moment in Rock, showcasing unparalleled artistry since 1980. Brought to the world by Atlantic Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 167.45,
+    id: 72,
+    category: "c4"
   },
   {
-    id: "P73",
-    catalogNumber: "MOVLP 501",
-    title: "Hunky Dory",
-    artist: "David Bowie",
-    eraCreated: 1971,
-    genre: "Rock",
-    recordCompany: "RCA Victor",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 501",
+    Title: "Hunky Dory",
+    Artist: "David Bowie",
+    EraCreated: 1971,
+    RecordCompany: "RCA Victor",
+    Discontinued: true,
+    Description:
       "David Bowie's 'Hunky Dory' is celebrated as a defining moment in Rock, showcasing unparalleled artistry since 1971. Brought to the world by RCA Victor, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 325.89,
+    id: 73,
+    category: "c4"
   },
   {
-    id: "P74",
-    catalogNumber: "MOVLP 777",
-    title: "Born to Run",
-    artist: "Bruce Springsteen",
-    eraCreated: 1975,
-    genre: "Rock",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
-      "For fans of Rock, 'Born to Run' by Bruce Springsteen is a timeless classic that has stood the test of time since 1975. Produced by Columbia Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 777",
+    Title: "Born to Run",
+    Artist: "Bruce Springsteen",
+    EraCreated: 1975,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
+      "For fans of Rock, 'Born to Run' by Bruce Springsteen is a timeless classic that has stood the test of time since 1975. Produced by Columbia Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 210.73,
+    id: 74,
+    category: "c4"
   },
   {
-    id: "P75",
-    catalogNumber: "PC 4123",
-    title: "Let It Bleed",
-    artist: "The Rolling Stones",
-    eraCreated: 1969,
-    genre: "Rock",
-    recordCompany: "Decca Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "PC 4123",
+    Title: "Let It Bleed",
+    Artist: "The Rolling Stones",
+    EraCreated: 1969,
+    RecordCompany: "Decca Records",
+    Discontinued: true,
+    Description:
       "The Rolling Stones's 'Let It Bleed' is celebrated as a defining moment in Rock, showcasing unparalleled artistry since 1969. Brought to the world by Decca Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 185.37,
+    id: 75,
+    category: "c4"
   },
   {
-    id: "P76",
-    catalogNumber: "MOVLP 1236",
-    title: "Who's Next",
-    artist: "The Who",
-    eraCreated: 1971,
-    genre: "Rock",
-    recordCompany: "Decca Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1236",
+    Title: "Who's Next",
+    Artist: "The Who",
+    EraCreated: 1971,
+    RecordCompany: "Decca Records",
+    Discontinued: true,
+    Description:
       "The Who's 'Who's Next' is celebrated as a defining moment in Rock, showcasing unparalleled artistry since 1971. Brought to the world by Decca Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 201.25,
+    id: 76,
+    category: "c4"
   },
   {
-    id: "P77",
-    catalogNumber: "MOVLP 403",
-    title: "Led Zeppelin II",
-    artist: "Led Zeppelin",
-    eraCreated: 1969,
-    genre: "Rock",
-    recordCompany: "Atlantic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 403",
+    Title: "Led Zeppelin II",
+    Artist: "Led Zeppelin",
+    EraCreated: 1969,
+    RecordCompany: "Atlantic Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Rock albums, 'Led Zeppelin II' by Led Zeppelin has captivated audiences since its release in 1969. Released by Atlantic Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 261.23,
+    id: 77,
+    category: "c4"
   },
   {
-    id: "P78",
-    catalogNumber: "MOVLP 2099",
-    title: "Sticky Fingers",
-    artist: "The Rolling Stones",
-    eraCreated: 1971,
-    genre: "Rock",
-    recordCompany: "Rolling Stones Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2099",
+    Title: "Sticky Fingers",
+    Artist: "The Rolling Stones",
+    EraCreated: 1971,
+    RecordCompany: "Rolling Stones Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Rock albums, 'Sticky Fingers' by The Rolling Stones has captivated audiences since its release in 1971. Released by Rolling Stones Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 185.01,
+    id: 78,
+    category: "c4"
   },
   {
-    id: "P79",
-    catalogNumber: "PC 9123",
-    title: "A Night at the Opera",
-    artist: "Queen",
-    eraCreated: 1975,
-    genre: "Rock",
-    recordCompany: "EMI",
-    discontinued: true,
-    description:
+    CatalogNumber: "PC 9123",
+    Title: "A Night at the Opera",
+    Artist: "Queen",
+    EraCreated: 1975,
+    RecordCompany: "EMI",
+    Discontinued: true,
+    Description:
       "With its release in 1975, 'A Night at the Opera' by Queen under EMI set the bar for Rock music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 313.02,
+    id: 79,
+    category: "c4"
   },
   {
-    id: "P80",
-    catalogNumber: "MOVLP 155",
-    title: "Sgt. Pepper's Lonely Hearts Club Band",
-    artist: "The Beatles",
-    eraCreated: 1967,
-    genre: "Rock",
-    recordCompany: "Parlophone",
-    discontinued: true,
-    description:
-      "For fans of Rock, 'Sgt. Pepper's Lonely Hearts Club Band' by The Beatles is a timeless classic that has stood the test of time since 1967. Produced by Parlophone, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 155",
+    Title: "Sgt. Pepper's Lonely Hearts Club Band",
+    Artist: "The Beatles",
+    EraCreated: 1967,
+    RecordCompany: "Parlophone",
+    Discontinued: true,
+    Description:
+      "For fans of Rock, 'Sgt. Pepper's Lonely Hearts Club Band' by The Beatles is a timeless classic that has stood the test of time since 1967. Produced by Parlophone, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 475.69,
+    id: 80,
+    category: "c4"
   },
   {
-    id: "P81",
-    catalogNumber: "MOVLP 2010",
-    title: "Physical Graffiti",
-    artist: "Led Zeppelin",
-    eraCreated: 1975,
-    genre: "Rock",
-    recordCompany: "Swan Song Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2010",
+    Title: "Physical Graffiti",
+    Artist: "Led Zeppelin",
+    EraCreated: 1975,
+    RecordCompany: "Swan Song Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Rock albums, 'Physical Graffiti' by Led Zeppelin has captivated audiences since its release in 1975. Released by Swan Song Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 229.61,
+    id: 81,
+    category: "c4"
   },
   {
-    id: "P82",
-    catalogNumber: "MOVLP 405",
-    title: "Highway to Hell",
-    artist: "AC/DC",
-    eraCreated: 1979,
-    genre: "Rock",
-    recordCompany: "Atlantic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 405",
+    Title: "Highway to Hell",
+    Artist: "AC/DC",
+    EraCreated: 1979,
+    RecordCompany: "Atlantic Records",
+    Discontinued: true,
+    Description:
       "With its release in 1979, 'Highway to Hell' by AC/DC under Atlantic Records set the bar for Rock music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 180.12,
+    id: 82,
+    category: "c4"
   },
   {
-    id: "P83",
-    catalogNumber: "MOVLP 600",
-    title: "Exile on Main St.",
-    artist: "The Rolling Stones",
-    eraCreated: 1972,
-    genre: "Rock",
-    recordCompany: "Rolling Stones Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 600",
+    Title: "Exile on Main St.",
+    Artist: "The Rolling Stones",
+    EraCreated: 1972,
+    RecordCompany: "Rolling Stones Records",
+    Discontinued: true,
+    Description:
       "'Exile on Main St.' by The Rolling Stones is a landmark in Rock, first released in 1972. Crafted under Rolling Stones Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 190.62,
+    id: 83,
+    category: "c4"
   },
   {
-    id: "P84",
-    catalogNumber: "MOVLP 1234",
-    title: "Machine Head",
-    artist: "Deep Purple",
-    eraCreated: 1972,
-    genre: "Rock",
-    recordCompany: "Warner Bros. Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1234",
+    Title: "Machine Head",
+    Artist: "Deep Purple",
+    EraCreated: 1972,
+    RecordCompany: "Warner Bros. Records",
+    Discontinued: true,
+    Description:
       "With its release in 1972, 'Machine Head' by Deep Purple under Warner Bros. Records set the bar for Rock music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 177.44,
+    id: 84,
+    category: "c4"
   },
   {
-    id: "P85",
-    catalogNumber: "MOVLP 110",
-    title: "OK Computer",
-    artist: "Radiohead",
-    eraCreated: 1997,
-    genre: "Alternative",
-    recordCompany: "Parlophone",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 110",
+    Title: "OK Computer",
+    Artist: "Radiohead",
+    EraCreated: 1997,
+    RecordCompany: "Parlophone",
+    Discontinued: false,
+    Description:
       "With its release in 1997, 'OK Computer' by Radiohead under Parlophone set the bar for Alternative music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 135.92,
+    id: 85,
+    category: "c5"
   },
   {
-    id: "P86",
-    catalogNumber: "MOVLP 345",
-    title: "London Calling",
-    artist: "The Clash",
-    eraCreated: 1979,
-    genre: "Alternative",
-    recordCompany: "CBS Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 345",
+    Title: "London Calling",
+    Artist: "The Clash",
+    EraCreated: 1979,
+    RecordCompany: "CBS Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Alternative albums, 'London Calling' by The Clash has captivated audiences since its release in 1979. Released by CBS Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 345.92,
+    id: 86,
+    category: "c5"
   },
   {
-    id: "P87",
-    catalogNumber: "MOVLP 2920",
-    title: "In Rainbows",
-    artist: "Radiohead",
-    eraCreated: 2007,
-    genre: "Alternative",
-    recordCompany: "XL Recordings",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 2920",
+    Title: "In Rainbows",
+    Artist: "Radiohead",
+    EraCreated: 2007,
+    RecordCompany: "XL Recordings",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Alternative albums, 'In Rainbows' by Radiohead has captivated audiences since its release in 2007. Released by XL Recordings, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 70.99,
+    id: 87,
+    category: "c5"
   },
   {
-    id: "P88",
-    catalogNumber: "MOVLP 750",
-    title: "Nevermind",
-    artist: "Nirvana",
-    eraCreated: 1991,
-    genre: "Alternative",
-    recordCompany: "DGC Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 750",
+    Title: "Nevermind",
+    Artist: "Nirvana",
+    EraCreated: 1991,
+    RecordCompany: "DGC Records",
+    Discontinued: true,
+    Description:
       "With its release in 1991, 'Nevermind' by Nirvana under DGC Records set the bar for Alternative music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 130.8,
+    id: 88,
+    category: "c5"
   },
   {
-    id: "P89",
-    catalogNumber: "MOVLP 475",
-    title: "Murmur",
-    artist: "R.E.M.",
-    eraCreated: 1983,
-    genre: "Alternative",
-    recordCompany: "I.R.S. Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 475",
+    Title: "Murmur",
+    Artist: "R.E.M.",
+    EraCreated: 1983,
+    RecordCompany: "I.R.S. Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Alternative albums, 'Murmur' by R.E.M. has captivated audiences since its release in 1983. Released by I.R.S. Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 137.88,
+    id: 89,
+    category: "c5"
   },
   {
-    id: "P90",
-    catalogNumber: "MOVLP 560",
-    title: "The Queen Is Dead",
-    artist: "The Smiths",
-    eraCreated: 1986,
-    genre: "Alternative",
-    recordCompany: "Rough Trade",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 560",
+    Title: "The Queen Is Dead",
+    Artist: "The Smiths",
+    EraCreated: 1986,
+    RecordCompany: "Rough Trade",
+    Discontinued: true,
+    Description:
       "'The Queen Is Dead' by The Smiths is a landmark in Alternative, first released in 1986. Crafted under Rough Trade, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 160.42,
+    id: 90,
+    category: "c5"
   },
   {
-    id: "P91",
-    catalogNumber: "MOVLP 580",
-    title: "Doolittle",
-    artist: "Pixies",
-    eraCreated: 1989,
-    genre: "Alternative",
-    recordCompany: "4AD",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 580",
+    Title: "Doolittle",
+    Artist: "Pixies",
+    EraCreated: 1989,
+    RecordCompany: "4AD",
+    Discontinued: true,
+    Description:
       "Pixies's 'Doolittle' is celebrated as a defining moment in Alternative, showcasing unparalleled artistry since 1989. Brought to the world by 4AD, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 181.72,
+    id: 91,
+    category: "c5"
   },
   {
-    id: "P92",
-    catalogNumber: "MOVLP 651",
-    title: "Is This It",
-    artist: "The Strokes",
-    eraCreated: 2001,
-    genre: "Alternative",
-    recordCompany: "RCA Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 651",
+    Title: "Is This It",
+    Artist: "The Strokes",
+    EraCreated: 2001,
+    RecordCompany: "RCA Records",
+    Discontinued: false,
+    Description:
       "'Is This It' by The Strokes is a landmark in Alternative, first released in 2001. Crafted under RCA Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 125.39,
+    id: 92,
+    category: "c5"
   },
   {
-    id: "P93",
-    catalogNumber: "MOVLP 777",
-    title: "Surfer Rosa",
-    artist: "Pixies",
-    eraCreated: 1988,
-    genre: "Alternative",
-    recordCompany: "4AD",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 777",
+    Title: "Surfer Rosa",
+    Artist: "Pixies",
+    EraCreated: 1988,
+    RecordCompany: "4AD",
+    Discontinued: true,
+    Description:
       "'Surfer Rosa' by Pixies is a landmark in Alternative, first released in 1988. Crafted under 4AD, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 115.86,
+    id: 93,
+    category: "c5"
   },
   {
-    id: "P94",
-    catalogNumber: "MOVLP 990",
-    title: "Funeral",
-    artist: "Arcade Fire",
-    eraCreated: 2004,
-    genre: "Alternative",
-    recordCompany: "Merge Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 990",
+    Title: "Funeral",
+    Artist: "Arcade Fire",
+    EraCreated: 2004,
+    RecordCompany: "Merge Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Alternative albums, 'Funeral' by Arcade Fire has captivated audiences since its release in 2004. Released by Merge Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 109.93,
+    id: 94,
+    category: "c5"
   },
   {
-    id: "P95",
-    catalogNumber: "MOVLP 333",
-    title: "The Bends",
-    artist: "Radiohead",
-    eraCreated: 1995,
-    genre: "Alternative",
-    recordCompany: "Parlophone",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 333",
+    Title: "The Bends",
+    Artist: "Radiohead",
+    EraCreated: 1995,
+    RecordCompany: "Parlophone",
+    Discontinued: false,
+    Description:
       "'The Bends' by Radiohead is a landmark in Alternative, first released in 1995. Crafted under Parlophone, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 116.37,
+    id: 95,
+    category: "c5"
   },
   {
-    id: "P96",
-    catalogNumber: "MOVLP 889",
-    title: "Elephant",
-    artist: "The White Stripes",
-    eraCreated: 2003,
-    genre: "Alternative",
-    recordCompany: "XL Recordings",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 889",
+    Title: "Elephant",
+    Artist: "The White Stripes",
+    EraCreated: 2003,
+    RecordCompany: "XL Recordings",
+    Discontinued: false,
+    Description:
       "'Elephant' by The White Stripes is a landmark in Alternative, first released in 2003. Crafted under XL Recordings, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 123.05,
+    id: 96,
+    category: "c5"
   },
   {
-    id: "P97",
-    catalogNumber: "MOVLP 211",
-    title: "Crooked Rain, Crooked Rain",
-    artist: "Pavement",
-    eraCreated: 1994,
-    genre: "Alternative",
-    recordCompany: "Matador Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 211",
+    Title: "Crooked Rain, Crooked Rain",
+    Artist: "Pavement",
+    EraCreated: 1994,
+    RecordCompany: "Matador Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Alternative albums, 'Crooked Rain, Crooked Rain' by Pavement has captivated audiences since its release in 1994. Released by Matador Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 88.55,
+    id: 97,
+    category: "c5"
   },
   {
-    id: "P98",
-    catalogNumber: "MOVLP 1200",
-    title: "Whatever People Say I Am, That's What I'm Not",
-    artist: "Arctic Monkeys",
-    eraCreated: 2006,
-    genre: "Alternative",
-    recordCompany: "Domino Recording Co.",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 1200",
+    Title: "Whatever People Say I Am, That's What I'm Not",
+    Artist: "Arctic Monkeys",
+    EraCreated: 2006,
+    RecordCompany: "Domino Recording Co.",
+    Discontinued: false,
+    Description:
       "'Whatever People Say I Am, That's What I'm Not' by Arctic Monkeys is a landmark in Alternative, first released in 2006. Crafted under Domino Recording Co., this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 116.3,
+    id: 98,
+    category: "c5"
   },
   {
-    id: "P99",
-    catalogNumber: "MOVLP 2346",
-    title: "Bloodflowers",
-    artist: "The Cure",
-    eraCreated: 2000,
-    genre: "Alternative",
-    recordCompany: "Fiction Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 2346",
+    Title: "Bloodflowers",
+    Artist: "The Cure",
+    EraCreated: 2000,
+    RecordCompany: "Fiction Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Alternative albums, 'Bloodflowers' by The Cure has captivated audiences since its release in 2000. Released by Fiction Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 92.65,
+    id: 99,
+    category: "c5"
   },
   {
-    id: "P100",
-    catalogNumber: "MOVLP 880",
-    title: "Automatic for the People",
-    artist: "R.E.M.",
-    eraCreated: 1992,
-    genre: "Alternative",
-    recordCompany: "Warner Bros. Records",
-    discontinued: false,
-    description:
-      "For fans of Alternative, 'Automatic for the People' by R.E.M. is a timeless classic that has stood the test of time since 1992. Produced by Warner Bros. Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 880",
+    Title: "Automatic for the People",
+    Artist: "R.E.M.",
+    EraCreated: 1992,
+    RecordCompany: "Warner Bros. Records",
+    Discontinued: false,
+    Description:
+      "For fans of Alternative, 'Automatic for the People' by R.E.M. is a timeless classic that has stood the test of time since 1992. Produced by Warner Bros. Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 1,
+    price: 82.72,
+    id: 100,
+    category: "c5"
   },
   {
-    id: "P101",
-    catalogNumber: "MOVLP 1010",
-    title: "Ten",
-    artist: "Pearl Jam",
-    eraCreated: 1991,
-    genre: "Alternative",
-    recordCompany: "Epic Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 1010",
+    Title: "Ten",
+    Artist: "Pearl Jam",
+    EraCreated: 1991,
+    RecordCompany: "Epic Records",
+    Discontinued: false,
+    Description:
       "Pearl Jam's 'Ten' is celebrated as a defining moment in Alternative, showcasing unparalleled artistry since 1991. Brought to the world by Epic Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 166.53,
+    id: 101,
+    category: "c5"
   },
   {
-    id: "P102",
-    catalogNumber: "MOVLP 1990",
-    title: "Mezzanine",
-    artist: "Massive Attack",
-    eraCreated: 1998,
-    genre: "Alternative",
-    recordCompany: "Virgin Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 1990",
+    Title: "Mezzanine",
+    Artist: "Massive Attack",
+    EraCreated: 1998,
+    RecordCompany: "Virgin Records",
+    Discontinued: false,
+    Description:
       "'Mezzanine' by Massive Attack is a landmark in Alternative, first released in 1998. Crafted under Virgin Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 147.34,
+    id: 102,
+    category: "c5"
   },
   {
-    id: "P103",
-    catalogNumber: "MOVLP 970",
-    title: "The Soft Bulletin",
-    artist: "The Flaming Lips",
-    eraCreated: 1999,
-    genre: "Alternative",
-    recordCompany: "Warner Bros. Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 970",
+    Title: "The Soft Bulletin",
+    Artist: "The Flaming Lips",
+    EraCreated: 1999,
+    RecordCompany: "Warner Bros. Records",
+    Discontinued: false,
+    Description:
       "The Flaming Lips's 'The Soft Bulletin' is celebrated as a defining moment in Alternative, showcasing unparalleled artistry since 1999. Brought to the world by Warner Bros. Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 109.81,
+    id: 103,
+    category: "c5"
   },
   {
-    id: "P104",
-    catalogNumber: "MOVLP 1500",
-    title: "Yankee Hotel Foxtrot",
-    artist: "Wilco",
-    eraCreated: 2002,
-    genre: "Alternative",
-    recordCompany: "Nonesuch Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 1500",
+    Title: "Yankee Hotel Foxtrot",
+    Artist: "Wilco",
+    EraCreated: 2002,
+    RecordCompany: "Nonesuch Records",
+    Discontinued: false,
+    Description:
       "'Yankee Hotel Foxtrot' by Wilco is a landmark in Alternative, first released in 2002. Crafted under Nonesuch Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 119.92,
+    id: 104,
+    category: "c5"
   },
   {
-    id: "P105",
-    catalogNumber: "SXL 2306-7",
-    title: "Cinderella Suites / Romeo & Juliet Suites",
-    artist: "L'Orchestre de la Suisse Romande",
-    eraCreated: 1962,
-    genre: "Classical & Orchestral",
-    recordCompany: "Decca Records",
-    discontinued: true,
-    description:
-      "For fans of Classical & Orchestral, 'Cinderella Suites / Romeo & Juliet Suites' by L'Orchestre de la Suisse Romande is a timeless classic that has stood the test of time since 1962. Produced by Decca Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "SXL 2306-7",
+    Title: "Cinderella Suites / Romeo & Juliet Suites",
+    Artist: "L'Orchestre de la Suisse Romande",
+    EraCreated: 1962,
+    RecordCompany: "Decca Records",
+    Discontinued: true,
+    Description:
+      "For fans of Classical & Orchestral, 'Cinderella Suites / Romeo & Juliet Suites' by L'Orchestre de la Suisse Romande is a timeless classic that has stood the test of time since 1962. Produced by Decca Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 5,
+    price: 481.3,
+    id: 105,
+    category: "c6"
   },
   {
-    id: "P106",
-    catalogNumber: "2532 002",
-    title: "Beethoven: Symphony No. 5",
-    artist: "Berliner Philharmoniker",
-    eraCreated: 1970,
-    genre: "Classical & Orchestral",
-    recordCompany: "Deutsche Grammophon",
-    discontinued: true,
-    description:
-      "For fans of Classical & Orchestral, 'Beethoven: Symphony No. 5' by Berliner Philharmoniker is a timeless classic that has stood the test of time since 1970. Produced by Deutsche Grammophon, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "2532 002",
+    Title: "Beethoven: Symphony No. 5",
+    Artist: "Berliner Philharmoniker",
+    EraCreated: 1970,
+    RecordCompany: "Deutsche Grammophon",
+    Discontinued: true,
+    Description:
+      "For fans of Classical & Orchestral, 'Beethoven: Symphony No. 5' by Berliner Philharmoniker is a timeless classic that has stood the test of time since 1970. Produced by Deutsche Grammophon, it\u2019s a piece that resonates with music lovers.",
+    quantity: 10,
+    price: 164.9,
+    id: 106,
+    category: "c6"
   },
   {
-    id: "P107",
-    catalogNumber: "MOVLP 456",
-    title: "The Four Seasons",
-    artist: "Antonio Vivaldi",
-    eraCreated: 1967,
-    genre: "Classical & Orchestral",
-    recordCompany: "Philips Records",
-    discontinued: true,
-    description:
-      "For fans of Classical & Orchestral, 'The Four Seasons' by Antonio Vivaldi is a timeless classic that has stood the test of time since 1967. Produced by Philips Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 456",
+    Title: "The Four Seasons",
+    Artist: "Antonio Vivaldi",
+    EraCreated: 1967,
+    RecordCompany: "Philips Records",
+    Discontinued: true,
+    Description:
+      "For fans of Classical & Orchestral, 'The Four Seasons' by Antonio Vivaldi is a timeless classic that has stood the test of time since 1967. Produced by Philips Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 5,
+    price: 121.94,
+    id: 107,
+    category: "c6"
   },
   {
-    id: "P108",
-    catalogNumber: "B0012345-01",
-    title: "Mozart: Requiem",
-    artist: "Vienna Philharmonic",
-    eraCreated: 1973,
-    genre: "Classical & Orchestral",
-    recordCompany: "Deutsche Grammophon",
-    discontinued: true,
-    description:
-      "For fans of Classical & Orchestral, 'Mozart: Requiem' by Vienna Philharmonic is a timeless classic that has stood the test of time since 1973. Produced by Deutsche Grammophon, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0012345-01",
+    Title: "Mozart: Requiem",
+    Artist: "Vienna Philharmonic",
+    EraCreated: 1973,
+    RecordCompany: "Deutsche Grammophon",
+    Discontinued: true,
+    Description:
+      "For fans of Classical & Orchestral, 'Mozart: Requiem' by Vienna Philharmonic is a timeless classic that has stood the test of time since 1973. Produced by Deutsche Grammophon, it\u2019s a piece that resonates with music lovers.",
+    quantity: 5,
+    price: 175.47,
+    id: 108,
+    category: "c6"
   },
   {
-    id: "P109",
-    catalogNumber: "MOVLP 987",
-    title: "Swan Lake",
-    artist: "London Symphony Orchestra",
-    eraCreated: 1960,
-    genre: "Classical & Orchestral",
-    recordCompany: "EMI Classics",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 987",
+    Title: "Swan Lake",
+    Artist: "London Symphony Orchestra",
+    EraCreated: 1960,
+    RecordCompany: "EMI Classics",
+    Discontinued: true,
+    Description:
       "With its release in 1960, 'Swan Lake' by London Symphony Orchestra under EMI Classics set the bar for Classical & Orchestral music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 132.3,
+    id: 109,
+    category: "c6"
   },
   {
-    id: "P110",
-    catalogNumber: "MOVLP 210",
-    title: "The Planets",
-    artist: "Boston Symphony Orchestra",
-    eraCreated: 1971,
-    genre: "Classical & Orchestral",
-    recordCompany: "RCA Victor",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 210",
+    Title: "The Planets",
+    Artist: "Boston Symphony Orchestra",
+    EraCreated: 1971,
+    RecordCompany: "RCA Victor",
+    Discontinued: true,
+    Description:
       "Boston Symphony Orchestra's 'The Planets' is celebrated as a defining moment in Classical & Orchestral, showcasing unparalleled artistry since 1971. Brought to the world by RCA Victor, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 123.62,
+    id: 110,
+    category: "c6"
   },
   {
-    id: "P111",
-    catalogNumber: "MOVLP 129",
-    title: "Bach: Brandenburg Concertos",
-    artist: "Academy of St Martin in the Fields",
-    eraCreated: 1982,
-    genre: "Classical & Orchestral",
-    recordCompany: "Philips Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 129",
+    Title: "Bach: Brandenburg Concertos",
+    Artist: "Academy of St Martin in the Fields",
+    EraCreated: 1982,
+    RecordCompany: "Philips Records",
+    Discontinued: true,
+    Description:
       "'Bach: Brandenburg Concertos' by Academy of St Martin in the Fields is a landmark in Classical & Orchestral, first released in 1982. Crafted under Philips Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 91.83,
+    id: 111,
+    category: "c6"
   },
   {
-    id: "P112",
-    catalogNumber: "R1 123456",
-    title: "Tchaikovsky: 1812 Overture",
-    artist: "Chicago Symphony Orchestra",
-    eraCreated: 1978,
-    genre: "Classical & Orchestral",
-    recordCompany: "Decca Records",
-    discontinued: true,
-    description:
-      "For fans of Classical & Orchestral, 'Tchaikovsky: 1812 Overture' by Chicago Symphony Orchestra is a timeless classic that has stood the test of time since 1978. Produced by Decca Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "R1 123456",
+    Title: "Tchaikovsky: 1812 Overture",
+    Artist: "Chicago Symphony Orchestra",
+    EraCreated: 1978,
+    RecordCompany: "Decca Records",
+    Discontinued: true,
+    Description:
+      "For fans of Classical & Orchestral, 'Tchaikovsky: 1812 Overture' by Chicago Symphony Orchestra is a timeless classic that has stood the test of time since 1978. Produced by Decca Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 7,
+    price: 80.15,
+    id: 112,
+    category: "c6"
   },
   {
-    id: "P113",
-    catalogNumber: "MOVLP 999",
-    title: "Debussy: La Mer",
-    artist: "Berlin Philharmonic",
-    eraCreated: 1965,
-    genre: "Classical & Orchestral",
-    recordCompany: "Deutsche Grammophon",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 999",
+    Title: "Debussy: La Mer",
+    Artist: "Berlin Philharmonic",
+    EraCreated: 1965,
+    RecordCompany: "Deutsche Grammophon",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Classical & Orchestral albums, 'Debussy: La Mer' by Berlin Philharmonic has captivated audiences since its release in 1965. Released by Deutsche Grammophon, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 99.58,
+    id: 113,
+    category: "c6"
   },
   {
-    id: "P114",
-    catalogNumber: "MOVLP 880",
-    title: "Carmina Burana",
-    artist: "London Philharmonic Choir & Orchestra",
-    eraCreated: 1969,
-    genre: "Classical & Orchestral",
-    recordCompany: "EMI Classics",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 880",
+    Title: "Carmina Burana",
+    Artist: "London Philharmonic Choir & Orchestra",
+    EraCreated: 1969,
+    RecordCompany: "EMI Classics",
+    Discontinued: true,
+    Description:
       "London Philharmonic Choir & Orchestra's 'Carmina Burana' is celebrated as a defining moment in Classical & Orchestral, showcasing unparalleled artistry since 1969. Brought to the world by EMI Classics, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 164.3,
+    id: 114,
+    category: "c6"
   },
   {
-    id: "P115",
-    catalogNumber: "B0027854-01",
-    title: "Mahler: Symphony No. 2",
-    artist: "New York Philharmonic",
-    eraCreated: 1976,
-    genre: "Classical & Orchestral",
-    recordCompany: "Sony Classical",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0027854-01",
+    Title: "Mahler: Symphony No. 2",
+    Artist: "New York Philharmonic",
+    EraCreated: 1976,
+    RecordCompany: "Sony Classical",
+    Discontinued: true,
+    Description:
       "New York Philharmonic's 'Mahler: Symphony No. 2' is celebrated as a defining moment in Classical & Orchestral, showcasing unparalleled artistry since 1976. Brought to the world by Sony Classical, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 175.22,
+    id: 115,
+    category: "c6"
   },
   {
-    id: "P116",
-    catalogNumber: "B0019825-01",
-    title: "Beethoven: Symphony No. 9",
-    artist: "Vienna Philharmonic",
-    eraCreated: 1970,
-    genre: "Classical & Orchestral",
-    recordCompany: "Deutsche Grammophon",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0019825-01",
+    Title: "Beethoven: Symphony No. 9",
+    Artist: "Vienna Philharmonic",
+    EraCreated: 1970,
+    RecordCompany: "Deutsche Grammophon",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Classical & Orchestral albums, 'Beethoven: Symphony No. 9' by Vienna Philharmonic has captivated audiences since its release in 1970. Released by Deutsche Grammophon, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 192.4,
+    id: 116,
+    category: "c6"
   },
   {
-    id: "P117",
-    catalogNumber: "MOVLP 1023",
-    title: "Handel: Messiah",
-    artist: "Royal Philharmonic Orchestra",
-    eraCreated: 1968,
-    genre: "Classical & Orchestral",
-    recordCompany: "RCA Victor",
-    discontinued: true,
-    description:
-      "For fans of Classical & Orchestral, 'Handel: Messiah' by Royal Philharmonic Orchestra is a timeless classic that has stood the test of time since 1968. Produced by RCA Victor, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 1023",
+    Title: "Handel: Messiah",
+    Artist: "Royal Philharmonic Orchestra",
+    EraCreated: 1968,
+    RecordCompany: "RCA Victor",
+    Discontinued: true,
+    Description:
+      "For fans of Classical & Orchestral, 'Handel: Messiah' by Royal Philharmonic Orchestra is a timeless classic that has stood the test of time since 1968. Produced by RCA Victor, it\u2019s a piece that resonates with music lovers.",
+    quantity: 10,
+    price: 122.7,
+    id: 117,
+    category: "c6"
   },
   {
-    id: "P118",
-    catalogNumber: "MOVLP 1133",
-    title: "Dvorak: Symphony No. 9",
-    artist: "Czech Philharmonic Orchestra",
-    eraCreated: 1975,
-    genre: "Classical & Orchestral",
-    recordCompany: "Supraphon",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1133",
+    Title: "Dvorak: Symphony No. 9",
+    Artist: "Czech Philharmonic Orchestra",
+    EraCreated: 1975,
+    RecordCompany: "Supraphon",
+    Discontinued: true,
+    Description:
       "Czech Philharmonic Orchestra's 'Dvorak: Symphony No. 9' is celebrated as a defining moment in Classical & Orchestral, showcasing unparalleled artistry since 1975. Brought to the world by Supraphon, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 100.63,
+    id: 118,
+    category: "c6"
   },
   {
-    id: "P119",
-    catalogNumber: "MOVLP 1280",
-    title: "Rachmaninoff: Piano Concerto No. 2",
-    artist: "Philadelphia Orchestra",
-    eraCreated: 1979,
-    genre: "Classical & Orchestral",
-    recordCompany: "RCA Red Seal",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1280",
+    Title: "Rachmaninoff: Piano Concerto No. 2",
+    Artist: "Philadelphia Orchestra",
+    EraCreated: 1979,
+    RecordCompany: "RCA Red Seal",
+    Discontinued: true,
+    Description:
       "Philadelphia Orchestra's 'Rachmaninoff: Piano Concerto No. 2' is celebrated as a defining moment in Classical & Orchestral, showcasing unparalleled artistry since 1979. Brought to the world by RCA Red Seal, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 139.56,
+    id: 119,
+    category: "c6"
   },
   {
-    id: "P120",
-    catalogNumber: "B0011245-01",
-    title: "Schubert: Symphony No. 8 'Unfinished'",
-    artist: "Vienna Philharmonic",
-    eraCreated: 1963,
-    genre: "Classical & Orchestral",
-    recordCompany: "Deutsche Grammophon",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0011245-01",
+    Title: "Schubert: Symphony No. 8 'Unfinished'",
+    Artist: "Vienna Philharmonic",
+    EraCreated: 1963,
+    RecordCompany: "Deutsche Grammophon",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Classical & Orchestral albums, 'Schubert: Symphony No. 8 'Unfinished'' by Vienna Philharmonic has captivated audiences since its release in 1963. Released by Deutsche Grammophon, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 75.01,
+    id: 120,
+    category: "c6"
   },
   {
-    id: "P121",
-    catalogNumber: "MOVLP 2356",
-    title: "Holst: The Planets",
-    artist: "Los Angeles Philharmonic",
-    eraCreated: 1971,
-    genre: "Classical & Orchestral",
-    recordCompany: "Decca Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2356",
+    Title: "Holst: The Planets",
+    Artist: "Los Angeles Philharmonic",
+    EraCreated: 1971,
+    RecordCompany: "Decca Records",
+    Discontinued: true,
+    Description:
       "Los Angeles Philharmonic's 'Holst: The Planets' is celebrated as a defining moment in Classical & Orchestral, showcasing unparalleled artistry since 1971. Brought to the world by Decca Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 134.53,
+    id: 121,
+    category: "c6"
   },
   {
-    id: "P122",
-    catalogNumber: "MOVLP 3001",
-    title: "Stravinsky: The Rite of Spring",
-    artist: "Cleveland Orchestra",
-    eraCreated: 1972,
-    genre: "Classical & Orchestral",
-    recordCompany: "London Records",
-    discontinued: true,
-    description:
-      "For fans of Classical & Orchestral, 'Stravinsky: The Rite of Spring' by Cleveland Orchestra is a timeless classic that has stood the test of time since 1972. Produced by London Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 3001",
+    Title: "Stravinsky: The Rite of Spring",
+    Artist: "Cleveland Orchestra",
+    EraCreated: 1972,
+    RecordCompany: "London Records",
+    Discontinued: true,
+    Description:
+      "For fans of Classical & Orchestral, 'Stravinsky: The Rite of Spring' by Cleveland Orchestra is a timeless classic that has stood the test of time since 1972. Produced by London Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 6,
+    price: 138.43,
+    id: 122,
+    category: "c6"
   },
   {
-    id: "P123",
-    catalogNumber: "MOVLP 245",
-    title: "Brahms: Symphony No. 1",
-    artist: "Berlin Philharmonic",
-    eraCreated: 1966,
-    genre: "Classical & Orchestral",
-    recordCompany: "Deutsche Grammophon",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 245",
+    Title: "Brahms: Symphony No. 1",
+    Artist: "Berlin Philharmonic",
+    EraCreated: 1966,
+    RecordCompany: "Deutsche Grammophon",
+    Discontinued: true,
+    Description:
       "With its release in 1966, 'Brahms: Symphony No. 1' by Berlin Philharmonic under Deutsche Grammophon set the bar for Classical & Orchestral music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 106.45,
+    id: 123,
+    category: "c6"
   },
   {
-    id: "P124",
-    catalogNumber: "B0031111-01",
-    title: "Mendelssohn: Violin Concerto",
-    artist: "Leipzig Gewandhaus Orchestra",
-    eraCreated: 1978,
-    genre: "Classical & Orchestral",
-    recordCompany: "Philips Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0031111-01",
+    Title: "Mendelssohn: Violin Concerto",
+    Artist: "Leipzig Gewandhaus Orchestra",
+    EraCreated: 1978,
+    RecordCompany: "Philips Records",
+    Discontinued: true,
+    Description:
       "'Mendelssohn: Violin Concerto' by Leipzig Gewandhaus Orchestra is a landmark in Classical & Orchestral, first released in 1978. Crafted under Philips Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 111.97,
+    id: 124,
+    category: "c6"
   },
   {
-    id: "P125",
-    catalogNumber: "CL 1355",
-    title: "Kind of Blue",
-    artist: "Miles Davis",
-    eraCreated: 1959,
-    genre: "Jazz",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "CL 1355",
+    Title: "Kind of Blue",
+    Artist: "Miles Davis",
+    EraCreated: 1959,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
       "With its release in 1959, 'Kind of Blue' by Miles Davis under Columbia Records set the bar for Jazz music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 250.19,
+    id: 125,
+    category: "c7"
   },
   {
-    id: "P126",
-    catalogNumber: "MOVLP 191",
-    title: "A Love Supreme",
-    artist: "John Coltrane",
-    eraCreated: 1965,
-    genre: "Jazz",
-    recordCompany: "Impulse! Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 191",
+    Title: "A Love Supreme",
+    Artist: "John Coltrane",
+    EraCreated: 1965,
+    RecordCompany: "Impulse! Records",
+    Discontinued: true,
+    Description:
       "'A Love Supreme' by John Coltrane is a landmark in Jazz, first released in 1965. Crafted under Impulse! Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 333.92,
+    id: 126,
+    category: "c7"
   },
   {
-    id: "P127",
-    catalogNumber: "MOVLP 159",
-    title: "Time Out",
-    artist: "The Dave Brubeck Quartet",
-    eraCreated: 1959,
-    genre: "Jazz",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 159",
+    Title: "Time Out",
+    Artist: "The Dave Brubeck Quartet",
+    EraCreated: 1959,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
       "With its release in 1959, 'Time Out' by The Dave Brubeck Quartet under Columbia Records set the bar for Jazz music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 132.08,
+    id: 127,
+    category: "c7"
   },
   {
-    id: "P128",
-    catalogNumber: "B0025214-01",
-    title: "Mingus Ah Um",
-    artist: "Charles Mingus",
-    eraCreated: 1959,
-    genre: "Jazz",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
-      "For fans of Jazz, 'Mingus Ah Um' by Charles Mingus is a timeless classic that has stood the test of time since 1959. Produced by Columbia Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0025214-01",
+    Title: "Mingus Ah Um",
+    Artist: "Charles Mingus",
+    EraCreated: 1959,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
+      "For fans of Jazz, 'Mingus Ah Um' by Charles Mingus is a timeless classic that has stood the test of time since 1959. Produced by Columbia Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 8,
+    price: 250.02,
+    id: 128,
+    category: "c7"
   },
   {
-    id: "P129",
-    catalogNumber: "MOVLP 3021",
-    title: "Blue Train",
-    artist: "John Coltrane",
-    eraCreated: 1957,
-    genre: "Jazz",
-    recordCompany: "Blue Note Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 3021",
+    Title: "Blue Train",
+    Artist: "John Coltrane",
+    EraCreated: 1957,
+    RecordCompany: "Blue Note Records",
+    Discontinued: true,
+    Description:
       "With its release in 1957, 'Blue Train' by John Coltrane under Blue Note Records set the bar for Jazz music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 4,
+    price: 145.12,
+    id: 129,
+    category: "c7"
   },
   {
-    id: "P130",
-    catalogNumber: "MOVLP 421",
-    title: "The Shape of Jazz to Come",
-    artist: "Ornette Coleman",
-    eraCreated: 1959,
-    genre: "Jazz",
-    recordCompany: "Atlantic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 421",
+    Title: "The Shape of Jazz to Come",
+    Artist: "Ornette Coleman",
+    EraCreated: 1959,
+    RecordCompany: "Atlantic Records",
+    Discontinued: true,
+    Description:
       "Ornette Coleman's 'The Shape of Jazz to Come' is celebrated as a defining moment in Jazz, showcasing unparalleled artistry since 1959. Brought to the world by Atlantic Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 143.18,
+    id: 130,
+    category: "c7"
   },
   {
-    id: "P131",
-    catalogNumber: "R1 567123",
-    title: "Getz/Gilberto",
-    artist: "Stan Getz & João Gilberto",
-    eraCreated: 1964,
-    genre: "Jazz",
-    recordCompany: "Verve Records",
-    discontinued: true,
-    description:
-      "As one of the most iconic Jazz albums, 'Getz/Gilberto' by Stan Getz & João Gilberto has captivated audiences since its release in 1964. Released by Verve Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    CatalogNumber: "R1 567123",
+    Title: "Getz/Gilberto",
+    Artist: "Stan Getz & Jo\u00e3o Gilberto",
+    EraCreated: 1964,
+    RecordCompany: "Verve Records",
+    Discontinued: true,
+    Description:
+      "As one of the most iconic Jazz albums, 'Getz/Gilberto' by Stan Getz & Jo\u00e3o Gilberto has captivated audiences since its release in 1964. Released by Verve Records, it holds a special place in any collector's library.",
+    quantity: 6,
+    price: 191.64,
+    id: 131,
+    category: "c7"
   },
   {
-    id: "P132",
-    catalogNumber: "MOVLP 1237",
-    title: "Moanin'",
-    artist: "Art Blakey & The Jazz Messengers",
-    eraCreated: 1958,
-    genre: "Jazz",
-    recordCompany: "Blue Note Records",
-    discontinued: true,
-    description:
-      "For fans of Jazz, 'Moanin'' by Art Blakey & The Jazz Messengers is a timeless classic that has stood the test of time since 1958. Produced by Blue Note Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 1237",
+    Title: "Moanin'",
+    Artist: "Art Blakey & The Jazz Messengers",
+    EraCreated: 1958,
+    RecordCompany: "Blue Note Records",
+    Discontinued: true,
+    Description:
+      "For fans of Jazz, 'Moanin'' by Art Blakey & The Jazz Messengers is a timeless classic that has stood the test of time since 1958. Produced by Blue Note Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 4,
+    price: 129.73,
+    id: 132,
+    category: "c7"
   },
   {
-    id: "P133",
-    catalogNumber: "B0021421-01",
-    title: "Misterioso",
-    artist: "Thelonious Monk",
-    eraCreated: 1958,
-    genre: "Jazz",
-    recordCompany: "Riverside Records",
-    discontinued: true,
-    description:
-      "For fans of Jazz, 'Misterioso' by Thelonious Monk is a timeless classic that has stood the test of time since 1958. Produced by Riverside Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0021421-01",
+    Title: "Misterioso",
+    Artist: "Thelonious Monk",
+    EraCreated: 1958,
+    RecordCompany: "Riverside Records",
+    Discontinued: true,
+    Description:
+      "For fans of Jazz, 'Misterioso' by Thelonious Monk is a timeless classic that has stood the test of time since 1958. Produced by Riverside Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 6,
+    price: 134.29,
+    id: 133,
+    category: "c7"
   },
   {
-    id: "P134",
-    catalogNumber: "MOVLP 2135",
-    title: "Ellington at Newport",
-    artist: "Duke Ellington",
-    eraCreated: 1956,
-    genre: "Jazz",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2135",
+    Title: "Ellington at Newport",
+    Artist: "Duke Ellington",
+    EraCreated: 1956,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Jazz albums, 'Ellington at Newport' by Duke Ellington has captivated audiences since its release in 1956. Released by Columbia Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 192.75,
+    id: 134,
+    category: "c7"
   },
   {
-    id: "P135",
-    catalogNumber: "MOVLP 2567",
-    title: "Somethin' Else",
-    artist: "Cannonball Adderley",
-    eraCreated: 1958,
-    genre: "Jazz",
-    recordCompany: "Blue Note Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2567",
+    Title: "Somethin' Else",
+    Artist: "Cannonball Adderley",
+    EraCreated: 1958,
+    RecordCompany: "Blue Note Records",
+    Discontinued: true,
+    Description:
       "'Somethin' Else' by Cannonball Adderley is a landmark in Jazz, first released in 1958. Crafted under Blue Note Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 141.51,
+    id: 135,
+    category: "c7"
   },
   {
-    id: "P136",
-    catalogNumber: "B0034567-01",
-    title: "The Black Saint and the Sinner Lady",
-    artist: "Charles Mingus",
-    eraCreated: 1963,
-    genre: "Jazz",
-    recordCompany: "Impulse! Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0034567-01",
+    Title: "The Black Saint and the Sinner Lady",
+    Artist: "Charles Mingus",
+    EraCreated: 1963,
+    RecordCompany: "Impulse! Records",
+    Discontinued: true,
+    Description:
       "'The Black Saint and the Sinner Lady' by Charles Mingus is a landmark in Jazz, first released in 1963. Crafted under Impulse! Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 169.43,
+    id: 136,
+    category: "c7"
   },
   {
-    id: "P137",
-    catalogNumber: "MOVLP 2023",
-    title: "Brilliant Corners",
-    artist: "Thelonious Monk",
-    eraCreated: 1957,
-    genre: "Jazz",
-    recordCompany: "Riverside Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2023",
+    Title: "Brilliant Corners",
+    Artist: "Thelonious Monk",
+    EraCreated: 1957,
+    RecordCompany: "Riverside Records",
+    Discontinued: true,
+    Description:
       "With its release in 1957, 'Brilliant Corners' by Thelonious Monk under Riverside Records set the bar for Jazz music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 148.31,
+    id: 137,
+    category: "c7"
   },
   {
-    id: "P138",
-    catalogNumber: "MOVLP 980",
-    title: "Out to Lunch!",
-    artist: "Eric Dolphy",
-    eraCreated: 1964,
-    genre: "Jazz",
-    recordCompany: "Blue Note Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 980",
+    Title: "Out to Lunch!",
+    Artist: "Eric Dolphy",
+    EraCreated: 1964,
+    RecordCompany: "Blue Note Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Jazz albums, 'Out to Lunch!' by Eric Dolphy has captivated audiences since its release in 1964. Released by Blue Note Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 151.49,
+    id: 138,
+    category: "c7"
   },
   {
-    id: "P139",
-    catalogNumber: "MOVLP 3555",
-    title: "Mingus Mingus Mingus Mingus Mingus",
-    artist: "Charles Mingus",
-    eraCreated: 1964,
-    genre: "Jazz",
-    recordCompany: "Impulse! Records",
-    discontinued: true,
-    description:
-      "For fans of Jazz, 'Mingus Mingus Mingus Mingus Mingus' by Charles Mingus is a timeless classic that has stood the test of time since 1964. Produced by Impulse! Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 3555",
+    Title: "Mingus Mingus Mingus Mingus Mingus",
+    Artist: "Charles Mingus",
+    EraCreated: 1964,
+    RecordCompany: "Impulse! Records",
+    Discontinued: true,
+    Description:
+      "For fans of Jazz, 'Mingus Mingus Mingus Mingus Mingus' by Charles Mingus is a timeless classic that has stood the test of time since 1964. Produced by Impulse! Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 122.9,
+    id: 139,
+    category: "c7"
   },
   {
-    id: "P140",
-    catalogNumber: "MOVLP 987",
-    title: "Jazz at Massey Hall",
-    artist: "The Quintet",
-    eraCreated: 1956,
-    genre: "Jazz",
-    recordCompany: "Debut Records",
-    discontinued: true,
-    description:
-      "For fans of Jazz, 'Jazz at Massey Hall' by The Quintet is a timeless classic that has stood the test of time since 1956. Produced by Debut Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 987",
+    Title: "Jazz at Massey Hall",
+    Artist: "The Quintet",
+    EraCreated: 1956,
+    RecordCompany: "Debut Records",
+    Discontinued: true,
+    Description:
+      "For fans of Jazz, 'Jazz at Massey Hall' by The Quintet is a timeless classic that has stood the test of time since 1956. Produced by Debut Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 5,
+    price: 143.61,
+    id: 140,
+    category: "c7"
   },
   {
-    id: "P141",
-    catalogNumber: "R1 987654",
-    title: "The Sidewinder",
-    artist: "Lee Morgan",
-    eraCreated: 1964,
-    genre: "Jazz",
-    recordCompany: "Blue Note Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "R1 987654",
+    Title: "The Sidewinder",
+    Artist: "Lee Morgan",
+    EraCreated: 1964,
+    RecordCompany: "Blue Note Records",
+    Discontinued: true,
+    Description:
       "'The Sidewinder' by Lee Morgan is a landmark in Jazz, first released in 1964. Crafted under Blue Note Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 115.32,
+    id: 141,
+    category: "c7"
   },
   {
-    id: "P142",
-    catalogNumber: "B0011245-01",
-    title: "Ascension",
-    artist: "John Coltrane",
-    eraCreated: 1966,
-    genre: "Jazz",
-    recordCompany: "Impulse! Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0011245-01",
+    Title: "Ascension",
+    Artist: "John Coltrane",
+    EraCreated: 1966,
+    RecordCompany: "Impulse! Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Jazz albums, 'Ascension' by John Coltrane has captivated audiences since its release in 1966. Released by Impulse! Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 175.39,
+    id: 142,
+    category: "c7"
   },
   {
-    id: "P143",
-    catalogNumber: "MOVLP 4521",
-    title: "Speak No Evil",
-    artist: "Wayne Shorter",
-    eraCreated: 1966,
-    genre: "Jazz",
-    recordCompany: "Blue Note Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 4521",
+    Title: "Speak No Evil",
+    Artist: "Wayne Shorter",
+    EraCreated: 1966,
+    RecordCompany: "Blue Note Records",
+    Discontinued: true,
+    Description:
       "Wayne Shorter's 'Speak No Evil' is celebrated as a defining moment in Jazz, showcasing unparalleled artistry since 1966. Brought to the world by Blue Note Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 182.01,
+    id: 143,
+    category: "c7"
   },
   {
-    id: "P144",
-    catalogNumber: "B0035678-01",
-    title: "Soul Station",
-    artist: "Hank Mobley",
-    eraCreated: 1960,
-    genre: "Jazz",
-    recordCompany: "Blue Note Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0035678-01",
+    Title: "Soul Station",
+    Artist: "Hank Mobley",
+    EraCreated: 1960,
+    RecordCompany: "Blue Note Records",
+    Discontinued: true,
+    Description:
       "'Soul Station' by Hank Mobley is a landmark in Jazz, first released in 1960. Crafted under Blue Note Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 170.23,
+    id: 144,
+    category: "c7"
   },
   {
-    id: "P145",
-    catalogNumber: "MOVLP 5011",
-    title: "Red Headed Stranger",
-    artist: "Willie Nelson",
-    eraCreated: 1975,
-    genre: "Country & Folk",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 5011",
+    Title: "Red Headed Stranger",
+    Artist: "Willie Nelson",
+    EraCreated: 1975,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
       "Willie Nelson's 'Red Headed Stranger' is celebrated as a defining moment in Country & Folk, showcasing unparalleled artistry since 1975. Brought to the world by Columbia Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 82.59,
+    id: 145,
+    category: "c8"
   },
   {
-    id: "P146",
-    catalogNumber: "B0019235-01",
-    title: "Blue",
-    artist: "Joni Mitchell",
-    eraCreated: 1971,
-    genre: "Country & Folk",
-    recordCompany: "Reprise Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0019235-01",
+    Title: "Blue",
+    Artist: "Joni Mitchell",
+    EraCreated: 1971,
+    RecordCompany: "Reprise Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Country & Folk albums, 'Blue' by Joni Mitchell has captivated audiences since its release in 1971. Released by Reprise Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 251.24,
+    id: 146,
+    category: "c8"
   },
   {
-    id: "P147",
-    catalogNumber: "R1 1234567",
-    title: "The Essential Johnny Cash",
-    artist: "Johnny Cash",
-    eraCreated: 2002,
-    genre: "Country & Folk",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "R1 1234567",
+    Title: "The Essential Johnny Cash",
+    Artist: "Johnny Cash",
+    EraCreated: 2002,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
       "With its release in 2002, 'The Essential Johnny Cash' by Johnny Cash under Columbia Records set the bar for Country & Folk music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 111.62,
+    id: 147,
+    category: "c8"
   },
   {
-    id: "P148",
-    catalogNumber: "MOVLP 1445",
-    title: "Harvest",
-    artist: "Neil Young",
-    eraCreated: 1972,
-    genre: "Country & Folk",
-    recordCompany: "Reprise Records",
-    discontinued: true,
-    description:
-      "For fans of Country & Folk, 'Harvest' by Neil Young is a timeless classic that has stood the test of time since 1972. Produced by Reprise Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 1445",
+    Title: "Harvest",
+    Artist: "Neil Young",
+    EraCreated: 1972,
+    RecordCompany: "Reprise Records",
+    Discontinued: true,
+    Description:
+      "For fans of Country & Folk, 'Harvest' by Neil Young is a timeless classic that has stood the test of time since 1972. Produced by Reprise Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 6,
+    price: 214.97,
+    id: 148,
+    category: "c8"
   },
   {
-    id: "P149",
-    catalogNumber: "MOVLP 1311",
-    title: "At Folsom Prison",
-    artist: "Johnny Cash",
-    eraCreated: 1968,
-    genre: "Country & Folk",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1311",
+    Title: "At Folsom Prison",
+    Artist: "Johnny Cash",
+    EraCreated: 1968,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
       "Johnny Cash's 'At Folsom Prison' is celebrated as a defining moment in Country & Folk, showcasing unparalleled artistry since 1968. Brought to the world by Columbia Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 132.62,
+    id: 149,
+    category: "c8"
   },
   {
-    id: "P150",
-    catalogNumber: "MOVLP 2233",
-    title: "Sweetheart of the Rodeo",
-    artist: "The Byrds",
-    eraCreated: 1968,
-    genre: "Country & Folk",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2233",
+    Title: "Sweetheart of the Rodeo",
+    Artist: "The Byrds",
+    EraCreated: 1968,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
       "With its release in 1968, 'Sweetheart of the Rodeo' by The Byrds under Columbia Records set the bar for Country & Folk music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 146.18,
+    id: 150,
+    category: "c8"
   },
   {
-    id: "P151",
-    catalogNumber: "B0021243-01",
-    title: "Come Away with Me",
-    artist: "Norah Jones",
-    eraCreated: 2002,
-    genre: "Country & Folk",
-    recordCompany: "Blue Note Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0021243-01",
+    Title: "Come Away with Me",
+    Artist: "Norah Jones",
+    EraCreated: 2002,
+    RecordCompany: "Blue Note Records",
+    Discontinued: false,
+    Description:
       "Norah Jones's 'Come Away with Me' is celebrated as a defining moment in Country & Folk, showcasing unparalleled artistry since 2002. Brought to the world by Blue Note Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 84.11,
+    id: 151,
+    category: "c8"
   },
   {
-    id: "P152",
-    catalogNumber: "R1 654321",
-    title: "The Freewheelin' Bob Dylan",
-    artist: "Bob Dylan",
-    eraCreated: 1963,
-    genre: "Country & Folk",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "R1 654321",
+    Title: "The Freewheelin' Bob Dylan",
+    Artist: "Bob Dylan",
+    EraCreated: 1963,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
       "Bob Dylan's 'The Freewheelin' Bob Dylan' is celebrated as a defining moment in Country & Folk, showcasing unparalleled artistry since 1963. Brought to the world by Columbia Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 174.44,
+    id: 152,
+    category: "c8"
   },
   {
-    id: "P153",
-    catalogNumber: "MOVLP 998",
-    title: "Modern Sounds in Country and Western Music",
-    artist: "Ray Charles",
-    eraCreated: 1962,
-    genre: "Country & Folk",
-    recordCompany: "ABC-Paramount",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 998",
+    Title: "Modern Sounds in Country and Western Music",
+    Artist: "Ray Charles",
+    EraCreated: 1962,
+    RecordCompany: "ABC-Paramount",
+    Discontinued: true,
+    Description:
       "'Modern Sounds in Country and Western Music' by Ray Charles is a landmark in Country & Folk, first released in 1962. Crafted under ABC-Paramount, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 135.17,
+    id: 153,
+    category: "c8"
   },
   {
-    id: "P154",
-    catalogNumber: "MOVLP 1987",
-    title: "Tapestry",
-    artist: "Carole King",
-    eraCreated: 1971,
-    genre: "Country & Folk",
-    recordCompany: "Ode Records",
-    discontinued: true,
-    description:
-      "For fans of Country & Folk, 'Tapestry' by Carole King is a timeless classic that has stood the test of time since 1971. Produced by Ode Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 1987",
+    Title: "Tapestry",
+    Artist: "Carole King",
+    EraCreated: 1971,
+    RecordCompany: "Ode Records",
+    Discontinued: true,
+    Description:
+      "For fans of Country & Folk, 'Tapestry' by Carole King is a timeless classic that has stood the test of time since 1971. Produced by Ode Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 9,
+    price: 171.63,
+    id: 154,
+    category: "c8"
   },
   {
-    id: "P155",
-    catalogNumber: "MOVLP 1033",
-    title: "Music from Big Pink",
-    artist: "The Band",
-    eraCreated: 1968,
-    genre: "Country & Folk",
-    recordCompany: "Capitol Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1033",
+    Title: "Music from Big Pink",
+    Artist: "The Band",
+    EraCreated: 1968,
+    RecordCompany: "Capitol Records",
+    Discontinued: true,
+    Description:
       "With its release in 1968, 'Music from Big Pink' by The Band under Capitol Records set the bar for Country & Folk music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 144.09,
+    id: 155,
+    category: "c8"
   },
   {
-    id: "P156",
-    catalogNumber: "MOVLP 1555",
-    title: "John Prine",
-    artist: "John Prine",
-    eraCreated: 1971,
-    genre: "Country & Folk",
-    recordCompany: "Atlantic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1555",
+    Title: "John Prine",
+    Artist: "John Prine",
+    EraCreated: 1971,
+    RecordCompany: "Atlantic Records",
+    Discontinued: true,
+    Description:
       "'John Prine' by John Prine is a landmark in Country & Folk, first released in 1971. Crafted under Atlantic Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 95.87,
+    id: 156,
+    category: "c8"
   },
   {
-    id: "P157",
-    catalogNumber: "B0032487-01",
-    title: "Raising Sand",
-    artist: "Robert Plant & Alison Krauss",
-    eraCreated: 2007,
-    genre: "Country & Folk",
-    recordCompany: "Rounder Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0032487-01",
+    Title: "Raising Sand",
+    Artist: "Robert Plant & Alison Krauss",
+    EraCreated: 2007,
+    RecordCompany: "Rounder Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Country & Folk albums, 'Raising Sand' by Robert Plant & Alison Krauss has captivated audiences since its release in 2007. Released by Rounder Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 106.01,
+    id: 157,
+    category: "c8"
   },
   {
-    id: "P158",
-    catalogNumber: "MOVLP 1899",
-    title: "Court and Spark",
-    artist: "Joni Mitchell",
-    eraCreated: 1974,
-    genre: "Country & Folk",
-    recordCompany: "Asylum Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1899",
+    Title: "Court and Spark",
+    Artist: "Joni Mitchell",
+    EraCreated: 1974,
+    RecordCompany: "Asylum Records",
+    Discontinued: true,
+    Description:
       "Joni Mitchell's 'Court and Spark' is celebrated as a defining moment in Country & Folk, showcasing unparalleled artistry since 1974. Brought to the world by Asylum Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 125.69,
+    id: 158,
+    category: "c8"
   },
   {
-    id: "P159",
-    catalogNumber: "MOVLP 2015",
-    title: "Will the Circle Be Unbroken",
-    artist: "Nitty Gritty Dirt Band",
-    eraCreated: 1972,
-    genre: "Country & Folk",
-    recordCompany: "United Artists Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2015",
+    Title: "Will the Circle Be Unbroken",
+    Artist: "Nitty Gritty Dirt Band",
+    EraCreated: 1972,
+    RecordCompany: "United Artists Records",
+    Discontinued: true,
+    Description:
       "'Will the Circle Be Unbroken' by Nitty Gritty Dirt Band is a landmark in Country & Folk, first released in 1972. Crafted under United Artists Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 147.26,
+    id: 159,
+    category: "c8"
   },
   {
-    id: "P160",
-    catalogNumber: "B0024563-01",
-    title: "Gold",
-    artist: "Emmylou Harris",
-    eraCreated: 1975,
-    genre: "Country & Folk",
-    recordCompany: "Reprise Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0024563-01",
+    Title: "Gold",
+    Artist: "Emmylou Harris",
+    EraCreated: 1975,
+    RecordCompany: "Reprise Records",
+    Discontinued: true,
+    Description:
       "Emmylou Harris's 'Gold' is celebrated as a defining moment in Country & Folk, showcasing unparalleled artistry since 1975. Brought to the world by Reprise Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 80.67,
+    id: 160,
+    category: "c8"
   },
   {
-    id: "P161",
-    catalogNumber: "MOVLP 1452",
-    title: "Heartbreaker",
-    artist: "Ryan Adams",
-    eraCreated: 2000,
-    genre: "Country & Folk",
-    recordCompany: "Bloodshot Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 1452",
+    Title: "Heartbreaker",
+    Artist: "Ryan Adams",
+    EraCreated: 2000,
+    RecordCompany: "Bloodshot Records",
+    Discontinued: false,
+    Description:
       "Ryan Adams's 'Heartbreaker' is celebrated as a defining moment in Country & Folk, showcasing unparalleled artistry since 2000. Brought to the world by Bloodshot Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 124.59,
+    id: 161,
+    category: "c8"
   },
   {
-    id: "P162",
-    catalogNumber: "MOVLP 1145",
-    title: "Gram Parsons' Grievous Angel",
-    artist: "Gram Parsons",
-    eraCreated: 1974,
-    genre: "Country & Folk",
-    recordCompany: "Reprise Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1145",
+    Title: "Gram Parsons' Grievous Angel",
+    Artist: "Gram Parsons",
+    EraCreated: 1974,
+    RecordCompany: "Reprise Records",
+    Discontinued: true,
+    Description:
       "'Gram Parsons' Grievous Angel' by Gram Parsons is a landmark in Country & Folk, first released in 1974. Crafted under Reprise Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 118.24,
+    id: 162,
+    category: "c8"
   },
   {
-    id: "P163",
-    catalogNumber: "B0029834-01",
-    title: "The Last Waltz",
-    artist: "The Band",
-    eraCreated: 1978,
-    genre: "Country & Folk",
-    recordCompany: "Warner Bros. Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0029834-01",
+    Title: "The Last Waltz",
+    Artist: "The Band",
+    EraCreated: 1978,
+    RecordCompany: "Warner Bros. Records",
+    Discontinued: true,
+    Description:
       "'The Last Waltz' by The Band is a landmark in Country & Folk, first released in 1978. Crafted under Warner Bros. Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 126.44,
+    id: 163,
+    category: "c8"
   },
   {
-    id: "P164",
-    catalogNumber: "MOVLP 500",
-    title: "Ode to Billie Joe",
-    artist: "Bobbie Gentry",
-    eraCreated: 1967,
-    genre: "Country & Folk",
-    recordCompany: "Capitol Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 500",
+    Title: "Ode to Billie Joe",
+    Artist: "Bobbie Gentry",
+    EraCreated: 1967,
+    RecordCompany: "Capitol Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Country & Folk albums, 'Ode to Billie Joe' by Bobbie Gentry has captivated audiences since its release in 1967. Released by Capitol Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 115.78,
+    id: 164,
+    category: "c8"
   },
   {
-    id: "P165",
-    catalogNumber: "MOVLP 1012",
-    title: "What's Going On",
-    artist: "Marvin Gaye",
-    eraCreated: 1971,
-    genre: "Soul",
-    recordCompany: "Tamla Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1012",
+    Title: "What's Going On",
+    Artist: "Marvin Gaye",
+    EraCreated: 1971,
+    RecordCompany: "Tamla Records",
+    Discontinued: true,
+    Description:
       "Marvin Gaye's 'What's Going On' is celebrated as a defining moment in Soul, showcasing unparalleled artistry since 1971. Brought to the world by Tamla Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 251.7,
+    id: 165,
+    category: "c9"
   },
   {
-    id: "P166",
-    catalogNumber: "B0012342-01",
-    title: "I Never Loved a Man the Way I Love You",
-    artist: "Aretha Franklin",
-    eraCreated: 1967,
-    genre: "Soul",
-    recordCompany: "Atlantic Records",
-    discontinued: true,
-    description:
-      "For fans of Soul, 'I Never Loved a Man the Way I Love You' by Aretha Franklin is a timeless classic that has stood the test of time since 1967. Produced by Atlantic Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0012342-01",
+    Title: "I Never Loved a Man the Way I Love You",
+    Artist: "Aretha Franklin",
+    EraCreated: 1967,
+    RecordCompany: "Atlantic Records",
+    Discontinued: true,
+    Description:
+      "For fans of Soul, 'I Never Loved a Man the Way I Love You' by Aretha Franklin is a timeless classic that has stood the test of time since 1967. Produced by Atlantic Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 2,
+    price: 158.14,
+    id: 166,
+    category: "c9"
   },
   {
-    id: "P167",
-    catalogNumber: "R1 654789",
-    title: "Let's Get It On",
-    artist: "Marvin Gaye",
-    eraCreated: 1973,
-    genre: "Soul",
-    recordCompany: "Tamla Records",
-    discontinued: true,
-    description:
-      "For fans of Soul, 'Let's Get It On' by Marvin Gaye is a timeless classic that has stood the test of time since 1973. Produced by Tamla Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "R1 654789",
+    Title: "Let's Get It On",
+    Artist: "Marvin Gaye",
+    EraCreated: 1973,
+    RecordCompany: "Tamla Records",
+    Discontinued: true,
+    Description:
+      "For fans of Soul, 'Let's Get It On' by Marvin Gaye is a timeless classic that has stood the test of time since 1973. Produced by Tamla Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 121.95,
+    id: 167,
+    category: "c9"
   },
   {
-    id: "P168",
-    catalogNumber: "MOVLP 1130",
-    title: "Soulful",
-    artist: "Diana Ross & The Supremes",
-    eraCreated: 1968,
-    genre: "Soul",
-    recordCompany: "Motown Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1130",
+    Title: "Soulful",
+    Artist: "Diana Ross & The Supremes",
+    EraCreated: 1968,
+    RecordCompany: "Motown Records",
+    Discontinued: true,
+    Description:
       "Diana Ross & The Supremes's 'Soulful' is celebrated as a defining moment in Soul, showcasing unparalleled artistry since 1968. Brought to the world by Motown Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 143.4,
+    id: 168,
+    category: "c9"
   },
   {
-    id: "P169",
-    catalogNumber: "MOVLP 2020",
-    title: "Lady Soul",
-    artist: "Aretha Franklin",
-    eraCreated: 1968,
-    genre: "Soul",
-    recordCompany: "Atlantic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2020",
+    Title: "Lady Soul",
+    Artist: "Aretha Franklin",
+    EraCreated: 1968,
+    RecordCompany: "Atlantic Records",
+    Discontinued: true,
+    Description:
       "With its release in 1968, 'Lady Soul' by Aretha Franklin under Atlantic Records set the bar for Soul music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 141.06,
+    id: 169,
+    category: "c9"
   },
   {
-    id: "P170",
-    catalogNumber: "MOVLP 2090",
-    title: "Innervisions",
-    artist: "Stevie Wonder",
-    eraCreated: 1973,
-    genre: "Soul",
-    recordCompany: "Tamla Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2090",
+    Title: "Innervisions",
+    Artist: "Stevie Wonder",
+    EraCreated: 1973,
+    RecordCompany: "Tamla Records",
+    Discontinued: true,
+    Description:
       "Stevie Wonder's 'Innervisions' is celebrated as a defining moment in Soul, showcasing unparalleled artistry since 1973. Brought to the world by Tamla Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 178.97,
+    id: 170,
+    category: "c9"
   },
   {
-    id: "P171",
-    catalogNumber: "B0024567-01",
-    title: "Hot Buttered Soul",
-    artist: "Isaac Hayes",
-    eraCreated: 1969,
-    genre: "Soul",
-    recordCompany: "Enterprise Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0024567-01",
+    Title: "Hot Buttered Soul",
+    Artist: "Isaac Hayes",
+    EraCreated: 1969,
+    RecordCompany: "Enterprise Records",
+    Discontinued: true,
+    Description:
       "Isaac Hayes's 'Hot Buttered Soul' is celebrated as a defining moment in Soul, showcasing unparalleled artistry since 1969. Brought to the world by Enterprise Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 141.54,
+    id: 171,
+    category: "c9"
   },
   {
-    id: "P172",
-    catalogNumber: "MOVLP 2089",
-    title: "Back to Black",
-    artist: "Amy Winehouse",
-    eraCreated: 2006,
-    genre: "Soul",
-    recordCompany: "Island Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 2089",
+    Title: "Back to Black",
+    Artist: "Amy Winehouse",
+    EraCreated: 2006,
+    RecordCompany: "Island Records",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Soul albums, 'Back to Black' by Amy Winehouse has captivated audiences since its release in 2006. Released by Island Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 83.25,
+    id: 172,
+    category: "c9"
   },
   {
-    id: "P173",
-    catalogNumber: "MOVLP 1400",
-    title: "Otis Blue: Otis Redding Sings Soul",
-    artist: "Otis Redding",
-    eraCreated: 1965,
-    genre: "Soul",
-    recordCompany: "Volt Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1400",
+    Title: "Otis Blue: Otis Redding Sings Soul",
+    Artist: "Otis Redding",
+    EraCreated: 1965,
+    RecordCompany: "Volt Records",
+    Discontinued: true,
+    Description:
       "Otis Redding's 'Otis Blue: Otis Redding Sings Soul' is celebrated as a defining moment in Soul, showcasing unparalleled artistry since 1965. Brought to the world by Volt Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 226.91,
+    id: 173,
+    category: "c9"
   },
   {
-    id: "P174",
-    catalogNumber: "MOVLP 220",
-    title: "Superfly",
-    artist: "Curtis Mayfield",
-    eraCreated: 1972,
-    genre: "Soul",
-    recordCompany: "Curtom Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 220",
+    Title: "Superfly",
+    Artist: "Curtis Mayfield",
+    EraCreated: 1972,
+    RecordCompany: "Curtom Records",
+    Discontinued: true,
+    Description:
       "'Superfly' by Curtis Mayfield is a landmark in Soul, first released in 1972. Crafted under Curtom Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 167.82,
+    id: 174,
+    category: "c9"
   },
   {
-    id: "P175",
-    catalogNumber: "R1 99999",
-    title: "The Dock of the Bay",
-    artist: "Otis Redding",
-    eraCreated: 1968,
-    genre: "Soul",
-    recordCompany: "Volt Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "R1 99999",
+    Title: "The Dock of the Bay",
+    Artist: "Otis Redding",
+    EraCreated: 1968,
+    RecordCompany: "Volt Records",
+    Discontinued: true,
+    Description:
       "Otis Redding's 'The Dock of the Bay' is celebrated as a defining moment in Soul, showcasing unparalleled artistry since 1968. Brought to the world by Volt Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 141.14,
+    id: 175,
+    category: "c9"
   },
   {
-    id: "P176",
-    catalogNumber: "B0034568-01",
-    title: "The Miseducation of Lauryn Hill",
-    artist: "Lauryn Hill",
-    eraCreated: 1998,
-    genre: "Soul",
-    recordCompany: "Ruffhouse Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0034568-01",
+    Title: "The Miseducation of Lauryn Hill",
+    Artist: "Lauryn Hill",
+    EraCreated: 1998,
+    RecordCompany: "Ruffhouse Records",
+    Discontinued: false,
+    Description:
       "With its release in 1998, 'The Miseducation of Lauryn Hill' by Lauryn Hill under Ruffhouse Records set the bar for Soul music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 176.1,
+    id: 176,
+    category: "c9"
   },
   {
-    id: "P177",
-    catalogNumber: "MOVLP 888",
-    title: "A Change Is Gonna Come",
-    artist: "Sam Cooke",
-    eraCreated: 1964,
-    genre: "Soul",
-    recordCompany: "RCA Victor",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 888",
+    Title: "A Change Is Gonna Come",
+    Artist: "Sam Cooke",
+    EraCreated: 1964,
+    RecordCompany: "RCA Victor",
+    Discontinued: true,
+    Description:
       "With its release in 1964, 'A Change Is Gonna Come' by Sam Cooke under RCA Victor set the bar for Soul music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 137.08,
+    id: 177,
+    category: "c9"
   },
   {
-    id: "P178",
-    catalogNumber: "MOVLP 1345",
-    title: "I'm Still in Love with You",
-    artist: "Al Green",
-    eraCreated: 1972,
-    genre: "Soul",
-    recordCompany: "Hi Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1345",
+    Title: "I'm Still in Love with You",
+    Artist: "Al Green",
+    EraCreated: 1972,
+    RecordCompany: "Hi Records",
+    Discontinued: true,
+    Description:
       "'I'm Still in Love with You' by Al Green is a landmark in Soul, first released in 1972. Crafted under Hi Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 152.74,
+    id: 178,
+    category: "c9"
   },
   {
-    id: "P179",
-    catalogNumber: "MOVLP 7777",
-    title: "Here, My Dear",
-    artist: "Marvin Gaye",
-    eraCreated: 1978,
-    genre: "Soul",
-    recordCompany: "Tamla Records",
-    discontinued: true,
-    description:
-      "For fans of Soul, 'Here, My Dear' by Marvin Gaye is a timeless classic that has stood the test of time since 1978. Produced by Tamla Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 7777",
+    Title: "Here, My Dear",
+    Artist: "Marvin Gaye",
+    EraCreated: 1978,
+    RecordCompany: "Tamla Records",
+    Discontinued: true,
+    Description:
+      "For fans of Soul, 'Here, My Dear' by Marvin Gaye is a timeless classic that has stood the test of time since 1978. Produced by Tamla Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 8,
+    price: 128.37,
+    id: 179,
+    category: "c9"
   },
   {
-    id: "P180",
-    catalogNumber: "MOVLP 909",
-    title: "Live at the Apollo",
-    artist: "James Brown",
-    eraCreated: 1963,
-    genre: "Soul",
-    recordCompany: "King Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 909",
+    Title: "Live at the Apollo",
+    Artist: "James Brown",
+    EraCreated: 1963,
+    RecordCompany: "King Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Soul albums, 'Live at the Apollo' by James Brown has captivated audiences since its release in 1963. Released by King Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 128.55,
+    id: 180,
+    category: "c9"
   },
   {
-    id: "P181",
-    catalogNumber: "MOVLP 302",
-    title: "Curtis",
-    artist: "Curtis Mayfield",
-    eraCreated: 1970,
-    genre: "Soul",
-    recordCompany: "Curtom Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 302",
+    Title: "Curtis",
+    Artist: "Curtis Mayfield",
+    EraCreated: 1970,
+    RecordCompany: "Curtom Records",
+    Discontinued: true,
+    Description:
       "'Curtis' by Curtis Mayfield is a landmark in Soul, first released in 1970. Crafted under Curtom Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 120.92,
+    id: 181,
+    category: "c9"
   },
   {
-    id: "P182",
-    catalogNumber: "MOVLP 1300",
-    title: "The Impressions",
-    artist: "The Impressions",
-    eraCreated: 1963,
-    genre: "Soul",
-    recordCompany: "ABC-Paramount",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1300",
+    Title: "The Impressions",
+    Artist: "The Impressions",
+    EraCreated: 1963,
+    RecordCompany: "ABC-Paramount",
+    Discontinued: true,
+    Description:
       "'The Impressions' by The Impressions is a landmark in Soul, first released in 1963. Crafted under ABC-Paramount, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 84.19,
+    id: 182,
+    category: "c9"
   },
   {
-    id: "P183",
-    catalogNumber: "MOVLP 2022",
-    title: "Street Songs",
-    artist: "Rick James",
-    eraCreated: 1981,
-    genre: "Soul",
-    recordCompany: "Gordy Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2022",
+    Title: "Street Songs",
+    Artist: "Rick James",
+    EraCreated: 1981,
+    RecordCompany: "Gordy Records",
+    Discontinued: true,
+    Description:
       "With its release in 1981, 'Street Songs' by Rick James under Gordy Records set the bar for Soul music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 106.81,
+    id: 183,
+    category: "c9"
   },
   {
-    id: "P184",
-    catalogNumber: "B0012450-01",
-    title: "Simply Beautiful",
-    artist: "Al Green",
-    eraCreated: 1974,
-    genre: "Soul",
-    recordCompany: "Hi Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "B0012450-01",
+    Title: "Simply Beautiful",
+    Artist: "Al Green",
+    EraCreated: 1974,
+    RecordCompany: "Hi Records",
+    Discontinued: true,
+    Description:
       "With its release in 1974, 'Simply Beautiful' by Al Green under Hi Records set the bar for Soul music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 125.65,
+    id: 184,
+    category: "c9"
   },
   {
-    id: "P185",
-    catalogNumber: "MOVLP 8001",
-    title: "Maggot Brain",
-    artist: "Funkadelic",
-    eraCreated: 1971,
-    genre: "Funk",
-    recordCompany: "Westbound Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 8001",
+    Title: "Maggot Brain",
+    Artist: "Funkadelic",
+    EraCreated: 1971,
+    RecordCompany: "Westbound Records",
+    Discontinued: true,
+    Description:
       "With its release in 1971, 'Maggot Brain' by Funkadelic under Westbound Records set the bar for Funk music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 192.97,
+    id: 185,
+    category: "c10"
   },
   {
-    id: "P186",
-    catalogNumber: "R1 567890",
-    title: "Superfly",
-    artist: "Curtis Mayfield",
-    eraCreated: 1972,
-    genre: "Funk",
-    recordCompany: "Curtom Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "R1 567890",
+    Title: "Superfly",
+    Artist: "Curtis Mayfield",
+    EraCreated: 1972,
+    RecordCompany: "Curtom Records",
+    Discontinued: true,
+    Description:
       "Curtis Mayfield's 'Superfly' is celebrated as a defining moment in Funk, showcasing unparalleled artistry since 1972. Brought to the world by Curtom Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 184.94,
+    id: 186,
+    category: "c10"
   },
   {
-    id: "P187",
-    catalogNumber: "MOVLP 2221",
-    title: "Stand!",
-    artist: "Sly & The Family Stone",
-    eraCreated: 1969,
-    genre: "Funk",
-    recordCompany: "Epic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2221",
+    Title: "Stand!",
+    Artist: "Sly & The Family Stone",
+    EraCreated: 1969,
+    RecordCompany: "Epic Records",
+    Discontinued: true,
+    Description:
       "'Stand!' by Sly & The Family Stone is a landmark in Funk, first released in 1969. Crafted under Epic Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 3,
+    price: 171.82,
+    id: 187,
+    category: "c10"
   },
   {
-    id: "P188",
-    catalogNumber: "B0023421-01",
-    title: "There's a Riot Goin' On",
-    artist: "Sly & The Family Stone",
-    eraCreated: 1971,
-    genre: "Funk",
-    recordCompany: "Epic Records",
-    discontinued: true,
-    description:
-      "For fans of Funk, 'There's a Riot Goin' On' by Sly & The Family Stone is a timeless classic that has stood the test of time since 1971. Produced by Epic Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0023421-01",
+    Title: "There's a Riot Goin' On",
+    Artist: "Sly & The Family Stone",
+    EraCreated: 1971,
+    RecordCompany: "Epic Records",
+    Discontinued: true,
+    Description:
+      "For fans of Funk, 'There's a Riot Goin' On' by Sly & The Family Stone is a timeless classic that has stood the test of time since 1971. Produced by Epic Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 3,
+    price: 196.72,
+    id: 188,
+    category: "c10"
   },
   {
-    id: "P189",
-    catalogNumber: "MOVLP 1901",
-    title: "One Nation Under a Groove",
-    artist: "Funkadelic",
-    eraCreated: 1978,
-    genre: "Funk",
-    recordCompany: "Warner Bros. Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1901",
+    Title: "One Nation Under a Groove",
+    Artist: "Funkadelic",
+    EraCreated: 1978,
+    RecordCompany: "Warner Bros. Records",
+    Discontinued: true,
+    Description:
       "Funkadelic's 'One Nation Under a Groove' is celebrated as a defining moment in Funk, showcasing unparalleled artistry since 1978. Brought to the world by Warner Bros. Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 175.2,
+    id: 189,
+    category: "c10"
   },
   {
-    id: "P190",
-    catalogNumber: "MOVLP 1122",
-    title: "Fresh",
-    artist: "Sly & The Family Stone",
-    eraCreated: 1973,
-    genre: "Funk",
-    recordCompany: "Epic Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1122",
+    Title: "Fresh",
+    Artist: "Sly & The Family Stone",
+    EraCreated: 1973,
+    RecordCompany: "Epic Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Funk albums, 'Fresh' by Sly & The Family Stone has captivated audiences since its release in 1973. Released by Epic Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 167.97,
+    id: 190,
+    category: "c10"
   },
   {
-    id: "P191",
-    catalogNumber: "MOVLP 1800",
-    title: "Cosmic Slop",
-    artist: "Funkadelic",
-    eraCreated: 1973,
-    genre: "Funk",
-    recordCompany: "Westbound Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1800",
+    Title: "Cosmic Slop",
+    Artist: "Funkadelic",
+    EraCreated: 1973,
+    RecordCompany: "Westbound Records",
+    Discontinued: true,
+    Description:
       "Funkadelic's 'Cosmic Slop' is celebrated as a defining moment in Funk, showcasing unparalleled artistry since 1973. Brought to the world by Westbound Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 146.42,
+    id: 191,
+    category: "c10"
   },
   {
-    id: "P192",
-    catalogNumber: "B0032456-01",
-    title: "Street Songs",
-    artist: "Rick James",
-    eraCreated: 1981,
-    genre: "Funk",
-    recordCompany: "Gordy Records",
-    discontinued: true,
-    description:
-      "For fans of Funk, 'Street Songs' by Rick James is a timeless classic that has stood the test of time since 1981. Produced by Gordy Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0032456-01",
+    Title: "Street Songs",
+    Artist: "Rick James",
+    EraCreated: 1981,
+    RecordCompany: "Gordy Records",
+    Discontinued: true,
+    Description:
+      "For fans of Funk, 'Street Songs' by Rick James is a timeless classic that has stood the test of time since 1981. Produced by Gordy Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 9,
+    price: 117.03,
+    id: 192,
+    category: "c10"
   },
   {
-    id: "P193",
-    catalogNumber: "MOVLP 9999",
-    title: "James Brown's Greatest Hits",
-    artist: "James Brown",
-    eraCreated: 1970,
-    genre: "Funk",
-    recordCompany: "King Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 9999",
+    Title: "James Brown's Greatest Hits",
+    Artist: "James Brown",
+    EraCreated: 1970,
+    RecordCompany: "King Records",
+    Discontinued: true,
+    Description:
       "'James Brown's Greatest Hits' by James Brown is a landmark in Funk, first released in 1970. Crafted under King Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 212.99,
+    id: 193,
+    category: "c10"
   },
   {
-    id: "P194",
-    catalogNumber: "MOVLP 711",
-    title: "Songs in the Key of Life",
-    artist: "Stevie Wonder",
-    eraCreated: 1976,
-    genre: "Funk",
-    recordCompany: "Tamla Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 711",
+    Title: "Songs in the Key of Life",
+    Artist: "Stevie Wonder",
+    EraCreated: 1976,
+    RecordCompany: "Tamla Records",
+    Discontinued: true,
+    Description:
       "'Songs in the Key of Life' by Stevie Wonder is a landmark in Funk, first released in 1976. Crafted under Tamla Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 2,
+    price: 160.79,
+    id: 194,
+    category: "c10"
   },
   {
-    id: "P195",
-    catalogNumber: "MOVLP 7110",
-    title: "Hardcore Jollies",
-    artist: "Funkadelic",
-    eraCreated: 1976,
-    genre: "Funk",
-    recordCompany: "Warner Bros. Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 7110",
+    Title: "Hardcore Jollies",
+    Artist: "Funkadelic",
+    EraCreated: 1976,
+    RecordCompany: "Warner Bros. Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Funk albums, 'Hardcore Jollies' by Funkadelic has captivated audiences since its release in 1976. Released by Warner Bros. Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 131.46,
+    id: 195,
+    category: "c10"
   },
   {
-    id: "P196",
-    catalogNumber: "R1 789101",
-    title: "The Payback",
-    artist: "James Brown",
-    eraCreated: 1973,
-    genre: "Funk",
-    recordCompany: "Polydor Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "R1 789101",
+    Title: "The Payback",
+    Artist: "James Brown",
+    EraCreated: 1973,
+    RecordCompany: "Polydor Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Funk albums, 'The Payback' by James Brown has captivated audiences since its release in 1973. Released by Polydor Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 145.21,
+    id: 196,
+    category: "c10"
   },
   {
-    id: "P197",
-    catalogNumber: "MOVLP 2451",
-    title: "Fire",
-    artist: "Ohio Players",
-    eraCreated: 1974,
-    genre: "Funk",
-    recordCompany: "Mercury Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2451",
+    Title: "Fire",
+    Artist: "Ohio Players",
+    EraCreated: 1974,
+    RecordCompany: "Mercury Records",
+    Discontinued: true,
+    Description:
       "'Fire' by Ohio Players is a landmark in Funk, first released in 1974. Crafted under Mercury Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 110.18,
+    id: 197,
+    category: "c10"
   },
   {
-    id: "P198",
-    catalogNumber: "MOVLP 1770",
-    title: "A Funk Odyssey",
-    artist: "Jamiroquai",
-    eraCreated: 2001,
-    genre: "Funk",
-    recordCompany: "Sony Music",
-    discontinued: false,
-    description:
-      "For fans of Funk, 'A Funk Odyssey' by Jamiroquai is a timeless classic that has stood the test of time since 2001. Produced by Sony Music, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "MOVLP 1770",
+    Title: "A Funk Odyssey",
+    Artist: "Jamiroquai",
+    EraCreated: 2001,
+    RecordCompany: "Sony Music",
+    Discontinued: false,
+    Description:
+      "For fans of Funk, 'A Funk Odyssey' by Jamiroquai is a timeless classic that has stood the test of time since 2001. Produced by Sony Music, it\u2019s a piece that resonates with music lovers.",
+    quantity: 10,
+    price: 106.47,
+    id: 198,
+    category: "c10"
   },
   {
-    id: "P199",
-    catalogNumber: "MOVLP 1990",
-    title: "Mothership Connection",
-    artist: "Parliament",
-    eraCreated: 1975,
-    genre: "Funk",
-    recordCompany: "Casablanca Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1990",
+    Title: "Mothership Connection",
+    Artist: "Parliament",
+    EraCreated: 1975,
+    RecordCompany: "Casablanca Records",
+    Discontinued: true,
+    Description:
       "'Mothership Connection' by Parliament is a landmark in Funk, first released in 1975. Crafted under Casablanca Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 189.26,
+    id: 199,
+    category: "c10"
   },
   {
-    id: "P200",
-    catalogNumber: "B0038888-01",
-    title: "Motor Booty Affair",
-    artist: "Parliament",
-    eraCreated: 1978,
-    genre: "Funk",
-    recordCompany: "Casablanca Records",
-    discontinued: true,
-    description:
-      "For fans of Funk, 'Motor Booty Affair' by Parliament is a timeless classic that has stood the test of time since 1978. Produced by Casablanca Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "B0038888-01",
+    Title: "Motor Booty Affair",
+    Artist: "Parliament",
+    EraCreated: 1978,
+    RecordCompany: "Casablanca Records",
+    Discontinued: true,
+    Description:
+      "For fans of Funk, 'Motor Booty Affair' by Parliament is a timeless classic that has stood the test of time since 1978. Produced by Casablanca Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 4,
+    price: 122.45,
+    id: 200,
+    category: "c10"
   },
   {
-    id: "P201",
-    catalogNumber: "MOVLP 1510",
-    title: "The World Is a Ghetto",
-    artist: "War",
-    eraCreated: 1972,
-    genre: "Funk",
-    recordCompany: "United Artists Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1510",
+    Title: "The World Is a Ghetto",
+    Artist: "War",
+    EraCreated: 1972,
+    RecordCompany: "United Artists Records",
+    Discontinued: true,
+    Description:
       "War's 'The World Is a Ghetto' is celebrated as a defining moment in Funk, showcasing unparalleled artistry since 1972. Brought to the world by United Artists Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 101.86,
+    id: 201,
+    category: "c10"
   },
   {
-    id: "P202",
-    catalogNumber: "MOVLP 1401",
-    title: "Funkentelechy vs. the Placebo Syndrome",
-    artist: "Parliament",
-    eraCreated: 1977,
-    genre: "Funk",
-    recordCompany: "Casablanca Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1401",
+    Title: "Funkentelechy vs. the Placebo Syndrome",
+    Artist: "Parliament",
+    EraCreated: 1977,
+    RecordCompany: "Casablanca Records",
+    Discontinued: true,
+    Description:
       "'Funkentelechy vs. the Placebo Syndrome' by Parliament is a landmark in Funk, first released in 1977. Crafted under Casablanca Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 112.9,
+    id: 202,
+    category: "c10"
   },
   {
-    id: "P203",
-    catalogNumber: "R1 222444",
-    title: "Skin Tight",
-    artist: "Ohio Players",
-    eraCreated: 1974,
-    genre: "Funk",
-    recordCompany: "Mercury Records",
-    discontinued: true,
-    description:
-      "For fans of Funk, 'Skin Tight' by Ohio Players is a timeless classic that has stood the test of time since 1974. Produced by Mercury Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "R1 222444",
+    Title: "Skin Tight",
+    Artist: "Ohio Players",
+    EraCreated: 1974,
+    RecordCompany: "Mercury Records",
+    Discontinued: true,
+    Description:
+      "For fans of Funk, 'Skin Tight' by Ohio Players is a timeless classic that has stood the test of time since 1974. Produced by Mercury Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 4,
+    price: 167.75,
+    id: 203,
+    category: "c10"
   },
   {
-    id: "P204",
-    catalogNumber: "MOVLP 3234",
-    title: "Roots",
-    artist: "Curtis Mayfield",
-    eraCreated: 1971,
-    genre: "Funk",
-    recordCompany: "Curtom Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 3234",
+    Title: "Roots",
+    Artist: "Curtis Mayfield",
+    EraCreated: 1971,
+    RecordCompany: "Curtom Records",
+    Discontinued: true,
+    Description:
       "With its release in 1971, 'Roots' by Curtis Mayfield under Curtom Records set the bar for Funk music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 126.23,
+    id: 204,
+    category: "c10"
   },
   {
-    id: "P205",
-    catalogNumber: "MOVLP 6661",
-    title: "Master of Puppets",
-    artist: "Metallica",
-    eraCreated: 1986,
-    genre: "Metal",
-    recordCompany: "Elektra Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 6661",
+    Title: "Master of Puppets",
+    Artist: "Metallica",
+    EraCreated: 1986,
+    RecordCompany: "Elektra Records",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Metal albums, 'Master of Puppets' by Metallica has captivated audiences since its release in 1986. Released by Elektra Records, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 235.79,
+    id: 205,
+    category: "c11"
   },
   {
-    id: "P206",
-    catalogNumber: "MOVLP 3333",
-    title: "The Number of the Beast",
-    artist: "Iron Maiden",
-    eraCreated: 1982,
-    genre: "Metal",
-    recordCompany: "EMI",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 3333",
+    Title: "The Number of the Beast",
+    Artist: "Iron Maiden",
+    EraCreated: 1982,
+    RecordCompany: "EMI",
+    Discontinued: true,
+    Description:
       "With its release in 1982, 'The Number of the Beast' by Iron Maiden under EMI set the bar for Metal music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 9,
+    price: 159.3,
+    id: 206,
+    category: "c11"
   },
   {
-    id: "P207",
-    catalogNumber: "B0021234-01",
-    title: "Rust in Peace",
-    artist: "Megadeth",
-    eraCreated: 1990,
-    genre: "Metal",
-    recordCompany: "Capitol Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0021234-01",
+    Title: "Rust in Peace",
+    Artist: "Megadeth",
+    EraCreated: 1990,
+    RecordCompany: "Capitol Records",
+    Discontinued: false,
+    Description:
       "With its release in 1990, 'Rust in Peace' by Megadeth under Capitol Records set the bar for Metal music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 170.82,
+    id: 207,
+    category: "c11"
   },
   {
-    id: "P208",
-    catalogNumber: "R1 456789",
-    title: "Paranoid",
-    artist: "Black Sabbath",
-    eraCreated: 1970,
-    genre: "Metal",
-    recordCompany: "Vertigo Records",
-    discontinued: true,
-    description:
-      "For fans of Metal, 'Paranoid' by Black Sabbath is a timeless classic that has stood the test of time since 1970. Produced by Vertigo Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "R1 456789",
+    Title: "Paranoid",
+    Artist: "Black Sabbath",
+    EraCreated: 1970,
+    RecordCompany: "Vertigo Records",
+    Discontinued: true,
+    Description:
+      "For fans of Metal, 'Paranoid' by Black Sabbath is a timeless classic that has stood the test of time since 1970. Produced by Vertigo Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 10,
+    price: 206.3,
+    id: 208,
+    category: "c11"
   },
   {
-    id: "P209",
-    catalogNumber: "MOVLP 5000",
-    title: "Reign in Blood",
-    artist: "Slayer",
-    eraCreated: 1986,
-    genre: "Metal",
-    recordCompany: "Def Jam Recordings",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 5000",
+    Title: "Reign in Blood",
+    Artist: "Slayer",
+    EraCreated: 1986,
+    RecordCompany: "Def Jam Recordings",
+    Discontinued: true,
+    Description:
       "As one of the most iconic Metal albums, 'Reign in Blood' by Slayer has captivated audiences since its release in 1986. Released by Def Jam Recordings, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 136.15,
+    id: 209,
+    category: "c11"
   },
   {
-    id: "P210",
-    catalogNumber: "MOVLP 870",
-    title: "Painkiller",
-    artist: "Judas Priest",
-    eraCreated: 1990,
-    genre: "Metal",
-    recordCompany: "Columbia Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 870",
+    Title: "Painkiller",
+    Artist: "Judas Priest",
+    EraCreated: 1990,
+    RecordCompany: "Columbia Records",
+    Discontinued: false,
+    Description:
       "With its release in 1990, 'Painkiller' by Judas Priest under Columbia Records set the bar for Metal music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 117.17,
+    id: 210,
+    category: "c11"
   },
   {
-    id: "P211",
-    catalogNumber: "MOVLP 4577",
-    title: "Heaven and Hell",
-    artist: "Black Sabbath",
-    eraCreated: 1980,
-    genre: "Metal",
-    recordCompany: "Vertigo Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 4577",
+    Title: "Heaven and Hell",
+    Artist: "Black Sabbath",
+    EraCreated: 1980,
+    RecordCompany: "Vertigo Records",
+    Discontinued: true,
+    Description:
       "Black Sabbath's 'Heaven and Hell' is celebrated as a defining moment in Metal, showcasing unparalleled artistry since 1980. Brought to the world by Vertigo Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 141.78,
+    id: 211,
+    category: "c11"
   },
   {
-    id: "P212",
-    catalogNumber: "MOVLP 2321",
-    title: "Ride the Lightning",
-    artist: "Metallica",
-    eraCreated: 1984,
-    genre: "Metal",
-    recordCompany: "Megaforce Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2321",
+    Title: "Ride the Lightning",
+    Artist: "Metallica",
+    EraCreated: 1984,
+    RecordCompany: "Megaforce Records",
+    Discontinued: true,
+    Description:
       "With its release in 1984, 'Ride the Lightning' by Metallica under Megaforce Records set the bar for Metal music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 245.81,
+    id: 212,
+    category: "c11"
   },
   {
-    id: "P213",
-    catalogNumber: "MOVLP 912",
-    title: "British Steel",
-    artist: "Judas Priest",
-    eraCreated: 1980,
-    genre: "Metal",
-    recordCompany: "Columbia Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 912",
+    Title: "British Steel",
+    Artist: "Judas Priest",
+    EraCreated: 1980,
+    RecordCompany: "Columbia Records",
+    Discontinued: true,
+    Description:
       "With its release in 1980, 'British Steel' by Judas Priest under Columbia Records set the bar for Metal music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 122.62,
+    id: 213,
+    category: "c11"
   },
   {
-    id: "P214",
-    catalogNumber: "MOVLP 1340",
-    title: "Seventh Son of a Seventh Son",
-    artist: "Iron Maiden",
-    eraCreated: 1988,
-    genre: "Metal",
-    recordCompany: "EMI",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 1340",
+    Title: "Seventh Son of a Seventh Son",
+    Artist: "Iron Maiden",
+    EraCreated: 1988,
+    RecordCompany: "EMI",
+    Discontinued: true,
+    Description:
       "'Seventh Son of a Seventh Son' by Iron Maiden is a landmark in Metal, first released in 1988. Crafted under EMI, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 158.9,
+    id: 214,
+    category: "c11"
   },
   {
-    id: "P215",
-    catalogNumber: "R1 77777",
-    title: "Ace of Spades",
-    artist: "Motörhead",
-    eraCreated: 1980,
-    genre: "Metal",
-    recordCompany: "Bronze Records",
-    discontinued: true,
-    description:
-      "For fans of Metal, 'Ace of Spades' by Motörhead is a timeless classic that has stood the test of time since 1980. Produced by Bronze Records, it’s a piece that resonates with music lovers.",
-    categories: ["c1"]
+    CatalogNumber: "R1 77777",
+    Title: "Ace of Spades",
+    Artist: "Mot\u00f6rhead",
+    EraCreated: 1980,
+    RecordCompany: "Bronze Records",
+    Discontinued: true,
+    Description:
+      "For fans of Metal, 'Ace of Spades' by Mot\u00f6rhead is a timeless classic that has stood the test of time since 1980. Produced by Bronze Records, it\u2019s a piece that resonates with music lovers.",
+    quantity: 5,
+    price: 125.28,
+    id: 215,
+    category: "c11"
   },
   {
-    id: "P216",
-    catalogNumber: "MOVLP 1889",
-    title: "Blackwater Park",
-    artist: "Opeth",
-    eraCreated: 2001,
-    genre: "Metal",
-    recordCompany: "Music for Nations",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 1889",
+    Title: "Blackwater Park",
+    Artist: "Opeth",
+    EraCreated: 2001,
+    RecordCompany: "Music for Nations",
+    Discontinued: false,
+    Description:
       "With its release in 2001, 'Blackwater Park' by Opeth under Music for Nations set the bar for Metal music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 141.78,
+    id: 216,
+    category: "c11"
   },
   {
-    id: "P217",
-    catalogNumber: "B0034560-01",
-    title: "Toxicity",
-    artist: "System of a Down",
-    eraCreated: 2001,
-    genre: "Metal",
-    recordCompany: "American Recordings",
-    discontinued: false,
-    description:
+    CatalogNumber: "B0034560-01",
+    Title: "Toxicity",
+    Artist: "System of a Down",
+    EraCreated: 2001,
+    RecordCompany: "American Recordings",
+    Discontinued: false,
+    Description:
       "As one of the most iconic Metal albums, 'Toxicity' by System of a Down has captivated audiences since its release in 2001. Released by American Recordings, it holds a special place in any collector's library.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 107.79,
+    id: 217,
+    category: "c11"
   },
   {
-    id: "P218",
-    catalogNumber: "MOVLP 1077",
-    title: "Black Album",
-    artist: "Metallica",
-    eraCreated: 1991,
-    genre: "Metal",
-    recordCompany: "Elektra Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 1077",
+    Title: "Black Album",
+    Artist: "Metallica",
+    EraCreated: 1991,
+    RecordCompany: "Elektra Records",
+    Discontinued: false,
+    Description:
       "'Black Album' by Metallica is a landmark in Metal, first released in 1991. Crafted under Elektra Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 6,
+    price: 157.75,
+    id: 218,
+    category: "c11"
   },
   {
-    id: "P219",
-    catalogNumber: "MOVLP 2430",
-    title: "Peace Sells... but Who's Buying?",
-    artist: "Megadeth",
-    eraCreated: 1986,
-    genre: "Metal",
-    recordCompany: "Capitol Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 2430",
+    Title: "Peace Sells... but Who's Buying?",
+    Artist: "Megadeth",
+    EraCreated: 1986,
+    RecordCompany: "Capitol Records",
+    Discontinued: true,
+    Description:
       "Megadeth's 'Peace Sells... but Who's Buying?' is celebrated as a defining moment in Metal, showcasing unparalleled artistry since 1986. Brought to the world by Capitol Records, this record remains a must-have for true enthusiasts.",
-    categories: ["c1"]
+    quantity: 1,
+    price: 123.32,
+    id: 219,
+    category: "c11"
   },
   {
-    id: "P220",
-    catalogNumber: "MOVLP 780",
-    title: "Vulgar Display of Power",
-    artist: "Pantera",
-    eraCreated: 1992,
-    genre: "Metal",
-    recordCompany: "Atco Records",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 780",
+    Title: "Vulgar Display of Power",
+    Artist: "Pantera",
+    EraCreated: 1992,
+    RecordCompany: "Atco Records",
+    Discontinued: false,
+    Description:
       "With its release in 1992, 'Vulgar Display of Power' by Pantera under Atco Records set the bar for Metal music. Its influence can still be felt today, making it a cherished addition to any collection.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 106.06,
+    id: 220,
+    category: "c11"
   },
   {
-    id: "P221",
-    catalogNumber: "MOVLP 2150",
-    title: "Lateralus",
-    artist: "Tool",
-    eraCreated: 2001,
-    genre: "Metal",
-    recordCompany: "Volcano Entertainment",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 2150",
+    Title: "Lateralus",
+    Artist: "Tool",
+    EraCreated: 2001,
+    RecordCompany: "Volcano Entertainment",
+    Discontinued: false,
+    Description:
       "'Lateralus' by Tool is a landmark in Metal, first released in 2001. Crafted under Volcano Entertainment, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 8,
+    price: 156.94,
+    id: 221,
+    category: "c11"
   },
   {
-    id: "P222",
-    catalogNumber: "MOVLP 992",
-    title: "The Gallery",
-    artist: "Dark Tranquillity",
-    eraCreated: 1995,
-    genre: "Metal",
-    recordCompany: "Osmose Productions",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 992",
+    Title: "The Gallery",
+    Artist: "Dark Tranquillity",
+    EraCreated: 1995,
+    RecordCompany: "Osmose Productions",
+    Discontinued: false,
+    Description:
       "'The Gallery' by Dark Tranquillity is a landmark in Metal, first released in 1995. Crafted under Osmose Productions, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 10,
+    price: 101.67,
+    id: 222,
+    category: "c11"
   },
   {
-    id: "P223",
-    catalogNumber: "MOVLP 4560",
-    title: "Brave New World",
-    artist: "Iron Maiden",
-    eraCreated: 2000,
-    genre: "Metal",
-    recordCompany: "EMI",
-    discontinued: false,
-    description:
+    CatalogNumber: "MOVLP 4560",
+    Title: "Brave New World",
+    Artist: "Iron Maiden",
+    EraCreated: 2000,
+    RecordCompany: "EMI",
+    Discontinued: false,
+    Description:
       "'Brave New World' by Iron Maiden is a landmark in Metal, first released in 2000. Crafted under EMI, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 7,
+    price: 109.38,
+    id: 223,
+    category: "c11"
   },
   {
-    id: "P224",
-    catalogNumber: "MOVLP 3410",
-    title: "Holy Diver",
-    artist: "Dio",
-    eraCreated: 1983,
-    genre: "Metal",
-    recordCompany: "Warner Bros. Records",
-    discontinued: true,
-    description:
+    CatalogNumber: "MOVLP 3410",
+    Title: "Holy Diver",
+    Artist: "Dio",
+    EraCreated: 1983,
+    RecordCompany: "Warner Bros. Records",
+    Discontinued: true,
+    Description:
       "'Holy Diver' by Dio is a landmark in Metal, first released in 1983. Crafted under Warner Bros. Records, this album is renowned for its timeless sound that continues to inspire.",
-    categories: ["c1"]
+    quantity: 5,
+    price: 161.81,
+    id: 224,
+    category: "c11"
   }
 ];

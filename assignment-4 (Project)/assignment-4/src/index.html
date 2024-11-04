@@ -12,8 +12,10 @@
   <body>
     <header>
       <!-- Change this to your Store's info -->
-      <h1>Lau's LP Record Store</h1>
-      <p>We sell LP records from pop music to classical collection sets, come and take a look!</p>
+      <h1 style="text-align: center">Lau's Vinyl Record Store</h1>
+      <p style="text-align: center">
+        We sell Vinyl records from pop music to classical collection sets, come and take a look!
+      </p>
     </header>
 
     <nav id="menu">
@@ -30,6 +32,17 @@
       <table>
         <thead>
           <!-- Statically create the headings for your table here -->
+          <tr>
+            <th>Catalog Number</th>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Era Created</th>
+            <th>Record Company</th>
+            <th>Discontinued</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
         </thead>
         <tbody id="category-products">
           <!-- Dynamically create your product rows here -->
@@ -44,4 +57,29 @@
     <!-- Main App JavaScript File -->
     <script src="./js/app.js"></script>
   </body>
+
+  <style>
+    #menu {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 10px;
+    }
+
+    #menu button {
+      flex: 1;
+      margin: 15px;
+    }
+
+    th,
+    td {
+      border: 1px solid;
+      padding: 2-px;
+      text-align: left;
+    }
+
+    th {
+      font-weight: bold;
+    }
+  </style>
 </html>
