@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Support - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="brand">125497248, ToTsz, Lau</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Support your local community.</h1>
+    <p>We need your help to continue to provide essential community services to people in crisis.</p>
+    <a href="second-page.html"><button class="cta-button">Learn more</button></a>
+    <div class="circle circle-large"></div>
+    <div class="circle circle-small"></div>
+  </section>
+
+  <div class="cookie-bar" id="cookieBar">
+    <p>Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. <a href="#">Cookie Policy</a></p>
+    <button class="close-cookie" id="closeCookie">Close and accept</button>
+  </div>
+
+  <script>
+    const closeCookieButton = document.getElementById('closeCookie');
+    const cookieBar = document.getElementById('cookieBar');
+
+    closeCookieButton.addEventListener('click', function() {
+      cookieBar.style.display = 'none';
+    });
+  </script>
+</body>
+
+</html>
